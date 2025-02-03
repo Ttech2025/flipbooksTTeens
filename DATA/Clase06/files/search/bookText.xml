@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="18"><page Index="1"><![CDATA[Data Analytics
+
+
+
+
+
+
+
+
+        con Python
+
+
+
+
+
+
+
+
+
+
+
+
+         Clase 06]]></page><page Index="2"><![CDATA[Clase N° 6| Conceptos básicos
+
+
+
+
+
+               Temario:
+
+
+
+                   ●   Análisis de datos con Pandas
+                   ●   Filtrado y selección de datos.
+                   ●   Agrupación y agregación.
+                   ●   Generación de estadísticas descriptivas.]]></page><page Index="3"><![CDATA[Análisis de datos con Pandas
+
+
+
+               El análisis de datos con Pandas ofrece un conjunto poderoso y versátil de herramientas para
+               manejar y manipular datos. Esta biblioteca facilita tareas como la limpieza, transformación y
+               exploración de datos, permitiendo realizar análisis complejos de manera eficiente.
+
+               Con Pandas, puedes trabajar con datos tabulares de forma intuitiva, desde la carga y
+               visualización hasta la preparación para modelos más avanzados. Es una herramienta esencial
+               para quienes buscan comprender y extraer valor de la información, abriendo un mundo de
+               posibilidades en el análisis de datos.
+
+
+               Información general
+
+
+
+               Continuaremos trabajando con nuestro dataset de películas y series de Amazon Prime
+               Video.
+
+
+               Exploraremos varios métodos para obtener información general del dataset.
+
+
+               Leer el dataset y transformarlo en dataframe
+
+
+
+
+               Para empezar, montaremos nuestro Google Drive para acceder al archivo del dataset. A
+               continuación, importaremos la biblioteca Pandas y utilizaremos el método read_csv para cargar
+               el archivo en una variable llamada df, convirtiéndolo así en un DataFrame.
+               Código:
+               from google.colab import drive
+
+
+
+               drive.mount('/content/drive')
+
+
+               import pandas as pd
+
+
+               df = pd.read_csv('Ruta del archivo')]]></page><page Index="4"><![CDATA[Una vez ejecutado este proceso, estaremos listos para comenzar a analizar los datos
+               contenidos en el DataFrame.
+
+
+
+
+               Info, Describe, sample y duplicated
+
+
+
+               Info()
+
+
+
+               El método info() en Pandas proporciona un resumen general de un DataFrame, incluyendo el
+               número de filas y columnas, los nombres y tipos de datos de las columnas, y el conteo de
+               valores no nulos. Es útil para obtener una visión rápida de la estructura y el contenido del
+               DataFrame.
+
+
+               Ejemplo:
+
+               Código:
+               from google.colab import drive
+
+
+               drive.mount('/content/drive')
+
+
+
+               import pandas as pd
+
+
+               df = pd.read_csv('Ruta del archivo')
+
+
+               df.info()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Consola:]]></page><page Index="5"><![CDATA[Describe()
+
+
+
+               El método describe() proporciona un resumen estadístico descriptivo de las columnas numéricas
+               del DataFrame. Incluye estadísticas como la media, desviación estándar, mínimo, y percentiles.
+
+               Ejemplo:
+
+
+               Código:
+               import pandas as pd
+
+
+               data = {'columna1': [1, 2, 3, 4, 5],
+                         'Columna2': [10, 20, 30, 40, 50]}]]></page><page Index="6"><![CDATA[df = pd.DataFrame(data)
+
+
+               print(df.describe())
+
+
+
+
+               Consola:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Sample()
+               El método sample() se utiliza para obtener una muestra aleatoria de filas de un DataFrame. Es
+               útil para explorar una parte representativa de los datos.
+
+
+               Ejemplo:
+               Código:
+               df.sample(5)
+
+
+
+               Consola:]]></page><page Index="7"><![CDATA[Como pueden ver, dentro del paréntesis se especifica la cantidad de muestras que deseamos
+               visualizar en la consola. Si no se indica ningún número, se mostrará un solo elemento por
+               defecto.
+
+
+
+
+               Duplicated()
+
+
+               El método duplicated() en Pandas se utiliza para identificar filas duplicadas en un DataFrame.
+               Devuelve una Serie booleana que indica si cada fila es un duplicado o no.
+
+
+               Código:
+               df.duplicated()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Consola]]></page><page Index="8"><![CDATA[Este método devolverá True si el elemento en ese índice está duplicado y False si no lo está.
+
+               Además, podemos sumar todos los valores resultantes para verificar duplicados: si la suma es 0,
+               significa que no hay elementos duplicados.
+
+
+               Ejemplo
+
+               Codigo:
+               df.duplicated().sum()
+
+               Consola]]></page><page Index="9"><![CDATA[En conclusión, los métodos info(), describe(), sample(), y duplicated() de Pandas son
+               herramientas clave para el análisis de datos.
+
+
+               info() proporciona un resumen estructural del DataFrame, ayudando a entender rápidamente su
+               formato, tipos de datos y presencia de valores nulos.
+
+
+               describe() ofrece estadísticas descriptivas esenciales para conocer la distribución y
+               características básicas de los datos numéricos.
+
+               sample() permite extraer muestras aleatorias del DataFrame, facilitando la exploración y
+               verificación de datos sin necesidad de trabajar con el conjunto completo.
+
+               duplicated() identifica filas duplicadas, lo cual es crucial para la limpieza de datos y la detección
+               de redundancias.
+
+
+               Estos métodos permiten una gestión eficiente y una comprensión más profunda de los datos,
+               optimizando el proceso de análisis y preparación para modelos o informes.
+
+
+
+
+               Columnas
+
+
+
+
+               Para obtener los valores de una columna específica, utilizaremos la variable que contiene el
+               dataset y, entre corchetes, especificaremos el nombre de la columna como una cadena de texto.
+               Esto nos devolverá una Serie que contiene todos los datos de esa columna.
+
+
+               Ejemplo:
+
+
+               Código:
+               df['type']
+
+
+               Consola:]]></page><page Index="10"><![CDATA[Unique()
+
+
+               El método unique() en Pandas se utiliza para encontrar los valores únicos en una columna de un
+               DataFrame o en una Serie. Es útil para identificar los distintos valores presentes y entender la
+               diversidad de datos en una columna específica.
+
+               Código:
+               df['release_year'].unique()]]></page><page Index="11"><![CDATA[Consola:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Como podemos ver en el ejemplo, es posible obtener los valores únicos de una columna
+               específica. El resultado será una lista que contiene todos esos valores distintos.
+
+
+               Shape()
+
+
+
+               El atributo shape en Pandas proporciona la dimensión de un DataFrame o Serie. Devuelve
+               una tupla que contiene el número de filas y el número de columnas del DataFrame, o
+               simplemente el número de elementos en una Serie.
+
+
+               Ejemplo:
+
+               Código:
+               total_datos = df.shape[0]
+               print(total_datos)
+
+
+               Consola
+
+
+
+
+
+
+               Colocamos 0 dentro del atributo shape para obtener el número de filas del DataFrame y
+               luego imprimimos este valor en la consola para visualizarlo.]]></page><page Index="12"><![CDATA[Value_count()
+
+
+               Antes de continuar vamos a cambiar el nombre de nuestras columnas como vimos la clase
+               anterior.
+
+
+               Código:
+               df.columns = ['id_film', 'tipo', 'titulo', 'director', 'cast', 'pais',
+                                'fecha_agregacion', 'anio_lanzamiento', 'rating', 'duracion',
+                                'genero', 'descripcion']
+
+
+               El método value_counts() en Pandas se utiliza para contar la frecuencia de aparición de
+               cada valor único en una columna o Serie. Es útil para obtener un resumen de la distribución
+               de datos categóricos o discretos.
+
+
+               Ejemplo:
+
+               Código:
+               df['tipo'].value_counts()
+
+
+
+
+               Consola:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Como se muestra en el ejemplo, solicitamos que se nos muestre la frecuencia de cada valor
+               en la columna 'tipo', obteniendo así el conteo de películas y series en el DataFrame.]]></page><page Index="13"><![CDATA[dropna()
+
+
+               El método dropna() en Pandas se utiliza para eliminar filas o columnas que contienen
+               valores NaN (Not a Number) o None de un DataFrame o Serie. Es útil para limpiar los datos
+               antes de realizar análisis o modelado, asegurando que los conjuntos de datos sean
+               completos y estén libres de valores faltantes.
+
+
+               Ejemplo:
+
+               Código:
+               paises = df['pais'].dropna()
+               paises
+
+
+               Consola:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Como se muestra en la imagen, la consola muestra una serie con todos los países de la
+               columna "país", excluyendo los elementos vacíos.]]></page><page Index="14"><![CDATA[groupby(), size() y sort_values()
+
+
+
+               El método groupby() en Pandas se utiliza para agrupar datos similares y realizar cálculos
+               sobre esos grupos. Por ejemplo, en nuestro DataFrame, podemos agrupar los datos por
+               países y, utilizando el método size(), podemos contar cuántas veces aparece cada país.
+               Luego, con sort_values(), podemos ordenar estos datos en orden alfabético.
+
+               Código:
+               # agrupo por pais
+               grupo_paises = df.groupby('pais')
+               # cuento la cantidad por pais ordenando de mayor a menor
+               grupo_paises.size().sort_values(ascending=False)
+
+
+               Consola:]]></page><page Index="15"><![CDATA[Como se muestra en la imagen, la consola nos indica la cantidad de veces que se repite
+               cada elemento, tal como especificamos en el código.
+
+
+               Filtros lógicos
+
+
+
+               Para filtrar datos en Pandas, debes acceder al DataFrame y aplicar una condición lógica
+               dentro de los corchetes para seleccionar las filas que cumplen con esa condición.
+
+
+               Por ejemplo, si queremos ver las películas y series estrenadas en el año 2020, debemos
+               escribir un filtro que compare el año de estreno con 2020 y aplicarlo al DataFrame.
+
+
+
+
+
+
+
+
+
+               Código:
+               estrenos2020 = df[df["anio_lanzamiento"] == 2020]
+
+
+               estrenos2020
+
+               Consola]]></page><page Index="16"><![CDATA[Como se muestra en la imagen, el resultado es un nuevo DataFrame con menos filas que el
+               original, que solo incluye las películas y series estrenadas en 2020.]]></page><page Index="17"><![CDATA[Desafío N° 6:
+
+
+
+
+               Teniendo en cuenta el dataframe que usamos la clase pasada, crear dos dataframe con las
+               películas de dos años específicos, verificar cuántas películas y cuantos TV show hay en
+               cada año ¿en qué año se lanzaron más Películas? ¿y más shows de tv? Mostrar en consola
+               los resultados.
+
+               Colab desafío 6]]></page><page Index="18"><![CDATA[]]></page></pages></Search>
