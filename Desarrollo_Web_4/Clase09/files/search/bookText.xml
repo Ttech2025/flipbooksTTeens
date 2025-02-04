@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="20"><page Index="1"><![CDATA[Desarrollo
+
+
+
+
+
+
+
+
+        Web 4
+
+
+
+
+
+
+
+
+
+
+
+
+         Clase 09]]></page><page Index="2"><![CDATA[Clase N° 9 | Github y Reder
+
+
+
+               Temario:
+
+                   ●   Definición y uso de Github
+                   ●   Creación de una Cuenta en Github
+                   ●   Deploy de Node.js en Render
+                   ●   ¿Qué es y cómo se usa Render?]]></page><page Index="3"><![CDATA[Definición y uso de Github
+
+
+               GitHub es una plataforma esencial para el desarrollo colaborativo de software,
+               proporcionando herramientas poderosas para el control de versiones, seguimiento de
+               problemas y facilitando la colaboración entre desarrolladores.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               ¿Cual es el Propósito de Github?
+
+
+               GitHub permite a los desarrolladores colaborar en proyectos de software. Facilita el
+               seguimiento de cambios, la gestión de problemas, y proporciona herramientas para trabajar
+               en equipo.
+
+
+               ¿Qué beneficios me trae el uso de Github?
+
+
+               Control de versiones: Utiliza Git para rastrear y gestionar cambios en el código fuente,
+               permitiendo la colaboración simultánea de múltiples desarrolladores.]]></page><page Index="4"><![CDATA[Repositorios: Los proyectos se almacenan en repositorios. Cada repositorio contiene
+               todo el historial de cambios, archivos y carpetas relacionadas con un proyecto.
+
+               Branches (ramas): Los desarrolladores pueden trabajar en ramas separadas del código
+               para implementar nuevas características o solucionar problemas sin afectar la rama
+               principal.
+
+
+               Pull Requests: Son propuestas de cambios que permiten revisar y discutir el código antes
+               de fusionarlo con la rama principal. Facilitan el proceso de revisión de código.
+
+               Issues: Se utilizan para realizar seguimiento de tareas, errores o mejoras en un proyecto.
+               Pueden etiquetarse, asignarse y comentarse para una mejor organización.
+
+
+               Forks: Permite a los desarrolladores copiar un repositorio existente para realizar cambios
+               sin afectar al repositorio original. Posteriormente, pueden proponer la fusión de esos
+               cambios mediante un Pull Request.
+
+
+               Colaboración: GitHub facilita la colaboración entre desarrolladores, ya sea en proyectos de
+               código abierto o en equipos privados.
+
+
+               GitHub Actions: Ofrece un sistema de automatización para realizar tareas como pruebas,
+               construcciones y despliegues directamente desde el repositorio.
+
+
+               Integración Continua (CI) y Despliegue Continuo (CD): GitHub facilita la integración con
+               servicios de CI/CD para automatizar pruebas y despliegues cuando se realizan cambios en
+               el código.
+
+
+
+
+
+
+               Creación de una Cuenta en Github
+
+
+               Ahora nos crearemos una cuenta        
+
+
+               Accede al Sitio Web de GitHub: https://github.com/]]></page><page Index="5"><![CDATA[1. Inicia el Proceso de Registro:
+                       Haz clic en "Sign up" (Registrarse):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           .
+
+
+
+
+                       Completa el Formulario:]]></page><page Index="6"><![CDATA[Completa el Captcha:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       Selecciona el Plan Gratuito]]></page><page Index="7"><![CDATA[Verifica Tu Cuenta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       Abre el correo electrónico que recibas y sigue las instrucciones para verificar tu
+                       cuenta.
+                       ¡Listo! Ahora tienes una cuenta en GitHub. Personaliza tu perfil y comienza a
+                       explorar proyectos.]]></page><page Index="8"><![CDATA[Más adelante, en esta clase, haremos uso de esta cuenta junto con Render        
+
+
+
+
+
+
+               Deploy de Node.js en Render
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Cuando realizamos el despliegue de una aplicación en Node.js nos referimos al proceso de
+               hacer que esta aplicación sea accesible y funcional en un entorno de producción. Implica
+               tomar el código fuente de la aplicación Node.js, configurar el entorno de producción y
+               asegurarse de que la aplicación esté lista para manejar tráfico real.
+
+
+               A continuación, te dejamos unos consejos generales que realizamos a la hora de hacer un
+               deploy con Node.js:
+
+               Prepara tu Código: Asegúrate de que tu código esté listo para producción. Esto puede
+               incluir la optimización del código, eliminación de dependencias no utilizadas y
+               configuración de variables de entorno específicas para el entorno de producción.
+
+               Gestiona tus Dependencias: Asegúrate de que todas las dependencias necesarias estén
+               instaladas. Puedes utilizar el archivo package.json y ejecutar npm install --production para
+               instalar solo las dependencias necesarias para la ejecución en producción.]]></page><page Index="9"><![CDATA[Configura el Servidor: Configura el servidor que se utilizará para ejecutar la aplicación.
+               Esto puede incluir la instalación y configuración de un servidor web como Nginx o Apache
+               que actúe como un proxy inverso para tu aplicación Node.js.
+
+               Entorno de Producción: Ajusta la configuración de la aplicación para el entorno de
+               producción. Esto incluye configuraciones como puertos, direcciones de base de datos,
+               ajustes de seguridad y otros parámetros específicos para el entorno de producción.
+
+
+               Gestión de Procesos: Implementa una solución para gestionar el proceso de tu aplicación
+               en producción. Herramientas como PM2 o systemd son comunes para garantizar que la
+               aplicación se reinicie automáticamente en caso de fallos y que se ejecute de manera
+               continua.
+
+
+               Configuración de Variables de Entorno: Utiliza variables de entorno para almacenar
+               información sensible, como claves de API o credenciales de bases de datos, de manera
+               segura en el entorno de producción.
+
+
+               Despliegue Continuo (Opcional): Considera implementar un sistema de despliegue
+               continuo para facilitar actualizaciones automáticas y rápidas de tu aplicación en producción.
+
+
+               Monitoreo y Registro: Implementa herramientas de monitoreo y registro para realizar un
+               seguimiento del rendimiento de tu aplicación en producción y diagnosticar problemas si es
+               necesario.
+
+
+               El despliegue de una aplicación Node.js puede variar según la infraestructura y las
+               necesidades específicas del proyecto, pero estos son pasos generales que suelen
+               aplicarse en muchos casos.
+
+
+
+
+
+
+               ¿Qué es y cómo se usa Render?
+
+
+               Render es como una plataforma súper útil para los equipos que crean programas. Les
+               ayuda a lanzar sus creaciones de manera fácil y rápida, sin importar si son pequeños
+               experimentos o aplicaciones gigantes con un montón de cosas funcionando. Lo más
+               importante de todo esto es que se asegura de que todo funcione bien todo el tiempo.]]></page><page Index="10"><![CDATA[En comparación con otros lugares donde se pueden guardar y hacer funcionar programas,
+               como Heroku o Railway, Render tiene algunas ventajas. Por ejemplo, se enfocan mucho
+               en que lo que guardas en su plataforma siempre esté disponible y funcionando. Aunque
+               otros sitios también ofrecen servicios similares, Render se destaca por ser robusto y
+               eficiente.
+
+
+               Imagina que Render es como tu mejor amigo asegurándose de que tus programas estén
+               siempre listos para ser usados, sin importar lo grande o pequeño que sea.
+
+
+
+               Vamos a usar Render junto a Git con nuestra cuenta ya creada        
+
+               Paso 1
+               Crearse una cuenta en render.com, se recomienda crearse la cuenta con tu cuenta de
+               Github así evitas más configuraciones.]]></page><page Index="11"><![CDATA[Paso 2
+               Autorizar a Render para que pueda tener acceso a su cuenta de Github.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Paso 3
+               Confirmá tu cuenta de Render, verificando la casilla de mensajes de tu correo electrónico.]]></page><page Index="12"><![CDATA[Paso 4
+
+               Vamos a ‘Forkear’ un repositorio que nos da Render para usar de prueba entrando a este
+               link:  https://github.com/render-examples/express-hello-world   y   clickeamos   en   Fork
+               continuando con los pasos que ofrece Git.]]></page><page Index="13"><![CDATA[Paso 5
+               Después, devuelta en Render, podremos ver el dashboard principal y todos los servicios
+               que nos brinda render, nosotros usaremos Web Services
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Paso 6
+               Utilizamos la opción predeterminada Build and deploy from a Git repository, en este caso
+               vamos a hacer el deploy de nuestra app de Node.js desde su repositorio en Github.]]></page><page Index="14"><![CDATA[Paso 7
+               Conectamos con nuestro repositorio de GIT.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Paso 8
+               Podemos elegir qué Render vea todos nuestros repositorios o solo uno. Este paso es libre.]]></page><page Index="15"><![CDATA[]]></page><page Index="16"><![CDATA[Paso 9
+               Elegimos el repositorio que forkeamos previamente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Paso 10
+               Usamos los siguientes valores siendo estos los únicos que nos importan por el momento
+               para esta prueba
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        Paso 11
+                               Elegimos la opción FREE y clickeamos “Create Web Server”]]></page><page Index="17"><![CDATA[¡Último paso!
+
+
+                   Esperamos a que termine el deploy y cliqueamos en el link que aparece en pantalla.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        Listo.    ]]></page><page Index="18"><![CDATA[Desafío #4:
+
+
+
+
+               1. Crear una cuenta en Render:
+                 - Registrarse en Render mediante su página web y seguir el proceso de creación de una
+               cuenta.
+
+               2. Preparar el proyecto para el despliegue:
+                 - Asegurarse de que el proyecto esté correctamente configurado y funciona localmente.
+                 - Verificar que todas las dependencias estén listadas en el archivo `package.json` y que se
+               incluyan en el repositorio.
+
+
+               3. Configurar el despliegue en Render:
+                 - Acceder al panel de Render y crear un nuevo servicio.
+                 - Seleccionar las opciones adecuadas para el tipo de servicio que se está desplegando
+               (por ejemplo, un servicio de Node.js para una aplicación Express).
+                 - Configurar las variables de entorno necesarias, como las credenciales de la base de
+               datos y cualquier otra configuración específica del entorno de producción.
+
+               4. Desplegar el proyecto en Render:
+                 - Conectar el servicio de Render con el repositorio de GitHub o GitLab donde se encuentra
+               el proyecto.
+                 - Configurar la rama y la configuración de despliegue automático si es necesario.
+                 - Iniciar el despliegue del proyecto en Render y verificar que se complete correctamente.
+
+               5. Verificar la API REST desplegada:
+                 - Una vez que el despliegue se haya completado, acceder a la URL proporcionada por
+               Render para verificar que la API REST esté accesible y funcionando correctamente en el
+               entorno de producción.
+
+               6. Bonus Extra (COMPLEMENTARIO):
+                 - Realizar pruebas adicionales en la API REST desplegada para asegurarse de que todos
+               los endpoints funcionen como se esperaba.
+                 - Documentar cualquier problema encontrado durante el proceso de despliegue y cómo se
+               resolvieron.
+                 - Tomar capturas de pantalla o grabar un video del proceso de despliegue y compartirlo
+               como evidencia adicional.]]></page><page Index="19"><![CDATA[Recuerda seguir cuidadosamente cada paso y verificar que la API REST esté funcionando
+               correctamente en el entorno de Render una vez que se haya completado el despliegue.]]></page><page Index="20"><![CDATA[]]></page></pages></Search>

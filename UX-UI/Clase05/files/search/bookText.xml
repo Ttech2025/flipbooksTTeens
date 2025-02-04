@@ -1,0 +1,1265 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="44"><page Index="1"><![CDATA[Diseño
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       UX / UI
+
+
+
+
+
+         Clase 05]]></page><page Index="2"><![CDATA[Clase N° 5 | Conceptos básicos
+
+
+
+
+               Temario:
+
+
+                   ●  Qué es un prototipo y su importancia.
+                   ●  Tipos de prototipos y cuándo usarlos.
+                   ●  Herramientas de prototipado y cómo utilizarlas.
+                   ●  Pasos para crear un prototipo UX.]]></page><page Index="3"><![CDATA[¿Qué es un Prototipo?
+
+
+
+
+               Un prototipo es una simulación de prueba de un producto. En los prototipos se hace
+               tangible una idea para poder ser validada y probada por usuarios reales.
+
+               Para que podamos llamar a algo prototipo UX este debe tener un flujo con acciones e
+               interacciones las cuales poner a prueba.
+
+
+               Podríamos decir que el prototipo de un producto digital serían los wireframes enlazados
+               con los que se buscará probar la interacción y experiencia por parte de los usuarios a
+               testea]]></page><page Index="4"><![CDATA[Utilidad de los prototipos
+
+
+
+               El objetivo de crear prototipos en UX es conseguir la máxima información y
+               conocimiento de la experiencia con nuestro producto invirtiendo lo mínimo posible.
+
+
+               Los prototipos UX sirven para testear y validar posibles hipótesis y funcionalidades que
+               puedan aportar valor al usuario final.
+
+               Las utilidades por las que crear habitualmente un prototipo en UX son:
+
+
+                   ●  Comprobar si un diseño tiene lógica.
+                   ●  Detectar y probar errores.
+                   ●  Visualizar el diseño en un formato más real.
+                   ●  Hacer test con usuarios.
+                   ●  No perder tiempo en desarrollar features sin probar ni validar.
+
+
+               ¿Cuándo y por qué prototipar?
+
+
+
+               Generar prototipos debería estar siempre en el proceso de creación de cualquier
+               producto, ya que generan mucha comprensión y entendimiento sobre el producto que se
+               está trabajando.
+
+
+               Además en etapas en las que hay varias hipótesis planteadas crear prototipos nos permitirá
+               detectar qué solución es más válida.
+
+
+               Para que los prototipos tengan éxito y sean de utilidad debemos crearlos:
+
+
+                   ●  Como mecanismos para desarrollar test de usabilidad.
+                   ●  Para comparar alternativas de diseño entre distintos prototipos.
+                   ●  Como prueba de las hipótesis de interfaces propuestas.
+                   ●  Para detectar e identificar necesidades de los usuarios.
+                   ●  Como manera de involucrar a usuarios en el proceso de diseño.
+                   ●  Para modelar un sistema enfocado en la experiencia de usuario.
+                   ●  Para modelar “fácilmente” un sistema relativamente grande y complejo.]]></page><page Index="5"><![CDATA[●  Con el fin de facilitar la comunicación entre diseñadores y desarrolladores.
+
+
+               No es recomendable desarrollar un prototipo cuando no se haya establecido un criterio con
+               el que evaluar el resultado de las iteraciones, ya que si no estaremos perdiendo el tiempo
+               en muchos casos.
+
+
+               ¿En qué etapas de un proyecto prototipar?
+
+
+
+               No hay un momento ideal en el que crear un prototipo, ya que si estás creando un producto
+               o servicio enfocado en aportar valor al usuario has de seguir haciendo pruebas
+               constantemente.
+
+
+               Pero podemos crear prototipos:
+
+                   ●  Antes de arrancar para mostrar la idea o concepto a los stakeholders.
+                   ●  Comenzando un proyecto, para conseguir los requerimientos iniciales que
+                       demanden los usuarios.
+                   ●  Después de empezar el proyecto para validar el diseño y las funcionalidades con
+                       los usuarios.
+                   ●  En etapas intermedias y finales para validar especificaciones y detectar errores
+                       comunes.
+                   ●  En fases finales del producto para detectar problemas de usabilidad con el diseño.
+
+
+               Tipos de prototipos UX:
+
+
+
+               Disponemos de varias maneras crear prototipos, pudiendo crearlos de una calidad baja y
+               únicamente ideativa (con papel y lápiz) para validar un concepto inicial, o crear prototipos
+               de alta fidelidad (en html y css) en los que el usuario pueda introducir datos e interactuar
+               con todas las funciones del producto.]]></page><page Index="6"><![CDATA[Hay que aprender a detectar qué prototipo conviene crear ya que la creación de un
+               prototipo conlleva un gasto en tiempo y recursos, y dependiendo de la fase en la que se
+               encuentre el proyecto nos convendrá más crear unos u otros.
+
+               Existen varios tipos de prototipos, pero de manera general, podemos clasificarlos en 5
+               según su complejidad y fidelidad:
+
+                   ●  Sketch (nivel idea): es un bosquejo a mano sobre papel, estático y de baja calidad
+                       para reflejar la primera idea o concepto, y es el punto de partida de lo que será el
+                       producto final.]]></page><page Index="7"><![CDATA[●  Wireframe de baja calidad (low-fi, nivel layout): es una representación de baja
+                       fidelidad de la interfaz del usuario, y la utilizamos para crear el esqueleto de nuestro
+                       diseño. Su objetivo es presentar de forma esquematizada los conceptos claves de
+                       cada una de las pantallas del producto final y crear el flujo de navegación.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   ●  Wireframe de media calidad (mi-fi, nivel componente): en este diseño de wireframe
+                       ya comenzamos a trabajar en los detalles de la funcionalidad y el contenido final.]]></page><page Index="8"><![CDATA[Una de las grandes ventajas de trabajar en wireframes mi-fi es que se pueden
+                       realizar cambios más rápidos ya que aún no hemos aplicado en esta fase el diseño
+                       visual (colores, fotografías, tipografía final, etc.).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   ●  Mockup (Hi-fi, nivel estilo): una vez tenemos el esqueleto creamos mockups, que
+                       son una representación estática de alta fidelidad. Vestimos el esqueleto creado
+                       previamente, por lo que aquí ya comenzaremos a manejar los colores, las
+                       tipografías, las imágenes, etc. Su objetivo principal es conseguir una apariencia
+                       visual lo más cercana posible a nuestro producto final y la idea general de cómo
+                       funcionará.]]></page><page Index="9"><![CDATA[●  Prototipo interactivo (Hi-fi, nivel interacción): es la representación en alta fidelidad del
+                       producto final, que simula las interacciones principales de la interfaz de usuario,
+                       aunque realmente son imágenes conectadas entre sí para dar la sensación de ser
+                       un producto digital real. Nos ayudan a testar el flujo de navegación e interacciones
+                       similares al producto final para encontrar posibles errores de usabilidad antes de
+                       entrar en la fase de desarrollo.]]></page><page Index="10"><![CDATA[En resumen y para no liarte demasiado, un prototipo de alta fidelidad requiere esfuerzo y
+               tiempo. Entonces… ¿cuándo debemos diseñar un prototipo de alta fidelidad?
+
+                   ●  Para testar una línea de diseño de producto, y así conocer la opinión de usuarios y
+                       stakeholders sobre elementos del diseño visual o incluso el copy.
+                   ●  Para obtener pistas sobre el comportamiento de la navegación o de otros elementos
+                       interactivos.
+                   ●  Para comprobar exactamente los flujos de navegación del usuario.
+                   ●  Para conocer cómo se sienten los usuarios al utilizar el producto.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Pasos para crear un Prototipo UX
+
+
+
+               Antes de ponerse a prototipar se deberían realizar unos pasos previos como:
+
+                   ●  Definir la profundidad de la funcionalidad a prototipar.
+                   ●  Seleccionar la herramienta de prototipado.
+                   ●  Crear unos criterios de conclusión para el ciclo de iteración.]]></page><page Index="11"><![CDATA[●  Seleccionar el equipo de prototipado (diseñadores, desarrolladores, stakeholders y
+                       usuarios)
+                   ●  Definir el nivel de fidelidad requerido en el prototipado
+                   ●  Determinar la longitud de las iteraciones.
+                   ●  Definir el propósito o solución que pretendemos validar con el prototipo.
+                   ●  Definir qué datos o situaciones validarán la eficiencia del prototipo.
+
+
+
+               Herramientas de prototipado UX y UI
+
+
+
+               Hoy en día y gracias a la tecnología de la que disponemos lo más recomendable para
+               prototipar es utilizar herramientas de prototipado digital, estas disponen de muchas
+               funcionalidades con las que crear prototipos casi tan reales como un producto final.
+
+
+               Las herramientas más eficaces dependerán de si vas a diseñar y prototipar flujos por los
+               que avanzar el usuario (Figma, Sketch, Invision, Adobe XD) o si dispones de las pantallas
+               ya diseñadas y quieres crear animaciones y un prototipo algo más funcional]]></page><page Index="12"><![CDATA[Figma
+
+
+
+               Figma revoluciona el diseño colaborativo con una plataforma basada en la nube que permite
+               a equipos trabajar simultáneamente en proyectos de diseño. Más allá de su accesibilidad en
+               línea, Figma es conocida por su capacidad de colaboración en tiempo real, lo que le permite
+               a los diseñadores e interesados en el proyecto contribuir y comentar de manera
+               sincronizada.
+
+
+               Su versatilidad destaca en la creación de prototipos interactivos, diseño de interfaces y
+               flujos de trabajo ágiles. Con funciones como componentes reutilizables y bibliotecas
+               compartidas, Figma se ha convertido en la opción predilecta para equipos que buscan
+               eficiencia y cohesión en el diseño de experiencias digitales. Es, sin duda, una de las
+               herramientas de UX y UI que no te puedes perder.
+
+               En este curso, utilizaremos Figma como nuestra herramienta principal para el desarrollo de
+               prototipos y diseño de interfaces.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Descargar la aplicación de escritorio de Figma
+               Si no contamos con un buen sistema en tu dispositivo (computadora) podemos utilizar
+               versión online para evitar descargas
+               https://www.figma.com/login]]></page><page Index="13"><![CDATA[Descargar e instalar aplicaciones de escritorio
+
+
+
+
+               Los pasos para descargar e instalar la aplicación en nuestro equipo son los siguientes:
+
+
+                   ●  Si aún no descargaste Figma para escritorio en tu computadora puedes hacerlo
+                       desde aquí.
+                   ●  Hacer clic en el archivo descargado para ejecutar el instalador. Una vez instalado se
+                       abrirá la siguiente ventana.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   ●  Seguidamente, pulsamos en Create one, se abrirá una pestaña en su navegador
+                       para poner su email y contraseña y más tarde su nombre y la finalidad para la que
+                       usará la aplicación. Se deberá verificar su cuenta desde su correo electrónico y ya
+                       estará la cuenta lista para comenzar a usar Figma.]]></page><page Index="14"><![CDATA[Crea un nuevo proyecto
+
+
+
+                   ●  Después de iniciar sesión, puedes crear un nuevo proyecto. Para ello solo tienes
+                       que hacer clic sobre el botón + que tienes situado en la parte superior izquierda o
+                       bien hacer clic sobre el botón + Design File situado en la parte superior derecha.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Diseña tus pantallas
+
+
+               Antes de crear un prototipo, necesitas diseñar las pantallas individuales de tu aplicación o
+
+               sitio web. Utiliza las herramientas de diseño de Figma para crear elementos como botones,]]></page><page Index="15"><![CDATA[imágenes, campos de texto, etc. Cada grupo de pantallas deberá estar en una página
+
+               separada dentro de tu proyecto para crear proyectos con orden.
+
+
+               Para crear una nueva pantalla solo tenemos que dirigirnos a la herramienta Frame
+               disponible en la barra de herramientas o bien pulsamos la tecla F del teclado.  Al activar
+               esta herramienta seguidamente en la barra lateral derecha podemos seleccionar los
+               tamaños preestablecidos. Por ejemplo podemos seleccionar Iphone 14 si es que nuestro
+               diseño va destinado a este dispositivo.]]></page><page Index="16"><![CDATA[A partir de aquí, ya solo tenemos que insertar textos, imágenes y demás elementos para
+               componer nuestro prototipo.
+
+
+
+
+               Explorar las propiedades del texto]]></page><page Index="17"><![CDATA[Las propiedades de texto le permiten controlar todo, desde la apariencia y la posición del
+
+               texto hasta el comportamiento de cambio de tamaño y las funciones OpenType.
+
+
+               En este artículo, le mostraremos todas las propiedades disponibles para texto. Como hay
+               varias propiedades disponibles, las hemos agrupado por ubicación en este artículo,
+               seguidas de secciones con detalles adicionales.
+
+
+
+
+               Acceder a las propiedades del texto
+
+
+               Las propiedades del texto se pueden encontrar en la barra lateral derecha y en el panel de
+
+               configuración de tipo .
+
+
+
+               Barra lateral derecha
+
+
+
+               Aplique y ajuste las propiedades del texto en la sección Texto de la barra lateral derecha.
+
+
+               Utilice la imagen comentada que aparece a continuación para identificar cada propiedad en
+               el panel de propiedades. Haga clic en el enlace para obtener más información sobre cada
+               propiedad.]]></page><page Index="18"><![CDATA[1.  Haga clic en el Icono para ver, crear y aplicar estilos de texto
+                      2.  Haga clic en el nombre de la fuente para explorar una lista de fuentes web,
+                          locales y compartidas para encontrar un tipo de letra o una familia de fuentes.
+
+                      3.  Utilizar la flecha para seleccionar un peso o estilo de fuente.
+                      4.  Utilizar la Flecha para ajustar el tamaño del texto
+                      5.  Ajuste la distancia vertical entre líneas de texto utilizando el campo de altura de
+                          línea .
+                      6.  Ajuste la distancia horizontal entre letras con espaciado de letras
+
+                      7.  Ajuste la distancia vertical entre párrafos con el espaciado entre párrafos .]]></page><page Index="19"><![CDATA[8.  Seleccione cómo se desborda o se ajusta el texto con el comportamiento de
+
+                          cambio de tamaño .
+                      9.  Ajuste la alineación horizontal del texto dentro del cuadro de texto.
+                      10. Ajuste la alineación vertical del texto dentro del cuadro de texto.
+                      11. Hacer clic para abrir el panel de configuración de tipo y explorar más propiedades
+                          de texto.
+
+
+
+
+               Panel de configuración de tipo
+
+
+               El panel de configuración de Tipo  le brinda acceso a propiedades de texto adicionales y
+               funciones OpenType.
+
+
+               Para abrir el panel de configuración de tipo, haga clic en los tres puntos en la esquina
+               inferior derecha de la sección Texto .]]></page><page Index="20"><![CDATA[1.  Vea una vista previa de cualquier propiedad de texto
+
+                      2.  Pestaña de conceptos básicos
+                      3.  Elige cómo quieres que se redimensione horizontalmente tu texto
+                      4.  Ajustar la alineación horizontal del texto
+                      5.  Aplicar decoración al texto, como tachado y subrayado.
+                      6.  Ajuste el uso de mayúsculas y minúsculas . Elija entre mayúsculas, minúsculas,
+
+                          mayúsculas, mayúsculas y versalitas.]]></page><page Index="21"><![CDATA[7.  Cambiar el  espaciado entre párrafos  de texto
+
+                      8.  Crear listas numeradas o con viñetas →
+                      9.  Truncar texto  para ocultar el contenido desbordado
+                      10. Establezca el máximo de líneas para determinar cuándo se produce el
+                          truncamiento del texto
+                      11. Activar o desactivar el recorte vertical
+                      12. Pestaña de detalles
+
+                      13. Ajuste la configuración de sangría. Desplace la primera línea de texto con sangría
+                          de párrafo . También puede alternar entre citas colgantes y listas colgantes .
+                      14. Ajuste el uso de mayúsculas y minúsculas . Elija entre mayúsculas, minúsculas,
+                          mayúsculas, mayúsculas y versalitas. Si está disponible, también puede alternar
+                          entre mayúsculas y minúsculas y espaciado entre mayúsculas y minúsculas.
+
+                      15. Aplique cualquier configuración numérica , como estilo , posición (superíndice y
+                          subíndice) , fracciones y más.
+                      16. Acceda a cualquier función OpenType , como formas de letras, conjuntos
+                          estilísticos, variantes de caracteres, espaciado horizontal y más
+                      17. Hacer clic para cerrar el panel de configuración de tipo.
+                      18. Pestaña Variable (disponible solo para fuentes variables ). Ajuste la configuración
+                          de los ejes variables de una fuente.
+
+
+
+
+               Avance:
+
+
+               Utilice la vista previa en la parte superior del panel de detalles de tipo para ver cómo se ve
+               una propiedad o característica OpenType en particular. Pase el cursor sobre cualquier
+               característica o propiedad para ver la vista previa.
+
+
+               Figma mostrará un texto de muestra que se adapte mejor a la función que estás
+               previsualizando. Esto incluye:
+
+
+                      ●  Bloques de texto para alineación, espaciado y sangría.]]></page><page Index="22"><![CDATA[●  Números para propiedades de números.
+
+                      ●  Letras (o combinaciones de letras) afectadas por ligaduras o alternativas
+                          estilísticas.
+
+
+
+
+               Familia de fuentes, peso, tamaño.
+
+
+
+
+               Familia tipográfica:
+
+
+
+               Hay algunos términos asociados con una fuente:
+
+
+                      ●  Un tipo de letra es un conjunto de formas de letras y glifos con características de
+                          diseño similares.
+                      ●  Una fuente es un archivo que contiene los detalles visuales que conforman el
+
+                          diseño de cada glifo o letra de ese tipo de letra.
+                      ●  Una familia tipográfica es el conjunto de estilos que componen un tipo de letra.
+                          Por ejemplo: Helvética, Times New Roman y Roboto son familias tipográficas.
+
+
+
+               Figma utilizará Inter como fuente predeterminada para las nuevas capas de texto de una
+               sesión. Puede seleccionar otra familia de fuentes mediante el selector de fuentes . Haga clic
+               en la flecha para explorar los estilos de la fuente seleccionada.
+
+
+
+
+               Tamaño de fuente:
+
+
+
+               El tamaño de fuente controla la escala del texto. Figma representa el tamaño de fuente en
+               píxeles independientes de la densidad.]]></page><page Index="23"><![CDATA[Ajuste el tamaño de la fuente mediante el campo que se encuentra junto al estilo de fuente.
+
+               Hay varias formas de ajustar el tamaño de la fuente:
+
+
+                   ●  Haga clic en la flecha para seleccionar un tamaño de fuente predeterminado.
+                   ●  Introduzca su propio número en el campo.
+                   ●  Utilice los atajos del teclado:
+                                 ■  Mac: Mantenga presionada la tecla Shift ⌘ Commandy <para
+                                     aumentar o >disminuir.
+                                 ■  Windows: Mantenga presionada la tecla Ctrl Shifty <para aumentar o
+                                     >para disminuir.
+                   ●  Figma representa tamaños de texto de diferentes maneras.
+
+
+
+
+
+
+               Si traduce sus diseños a código, la resolución de su pantalla determinará el tamaño real de
+
+               cualquier texto. Puede ver el valor de píxel CSS (px) de cualquier texto en la sección
+
+               Tipografía en el modo de desarrollo.
+
+
+
+               También puede ver estos valores en el panel Propiedades si tiene acceso de visualización al
+
+               archivo y no usa el Modo Dev.
+
+
+
+               Si está exportando sus diseños a PDF, Figma renderizará el tamaño de fuente utilizando
+
+               puntos de impresión tradicionales (pt).
+
+
+
+
+               Alineación
+
+
+
+
+
+               Alineación horizontal:]]></page><page Index="24"><![CDATA[La alineación determina cómo distribuimos el texto dentro de su cuadro delimitador. La
+
+               alineación horizontal define cómo se alinea el texto a lo largo del eje x (horizontal) .
+
+
+               El texto alineado a la izquierda se suele utilizar para textos de párrafos, mientras que el
+               texto alineado al centro suele utilizarse para líneas de texto más cortas, como los títulos.
+
+
+               Utilice los iconos para seleccionar la alineación horizontal. Elija entre:
+
+
+                      ●  Izquierda
+                      ●  Centro
+                      ●  Bien
+                      ●  Justificar*
+
+
+
+
+               Justificar alinea la primera palabra de cada línea de texto con el borde más a la izquierda y
+               la última con el borde más a la derecha. Figma espacia uniformemente cada palabra de una
+
+               línea de texto justificado.
+
+
+
+
+
+               Alineamiento vertical:
+
+               La alineación determina cómo distribuimos el texto dentro de su cuadro delimitador. La
+               alineación vertical alinea el texto a lo largo del eje y (vertical) .
+
+
+               Utilice los iconos de alineación para seleccionar una alineación vertical. Elija entre:
+
+
+
+                      ●  Arriba
+                      ●  Medio
+                      ●  Abajo]]></page><page Index="25"><![CDATA[Nota: Solo es posible alinear verticalmente el texto en capas de texto con un tamaño fijo .
+
+               Las capas con el ajuste de tamaño establecido en Ancho automático o Alto automático
+
+               ignorarán la alineación.
+
+
+
+               Decoración
+
+
+               Aplique decoración de texto a una capa de texto completa o al texto seleccionado. Tiene
+               dos tipos de decoración disponibles:
+
+
+                      ●  Tachado
+                      ●  Subrayar
+
+
+
+
+               Tachado
+
+
+               El tachado agrega una línea horizontal a través del centro del texto.
+
+
+               Utilice el tachado para indicar información obsoleta o inexacta. Esto le permite transmitir su
+               estado sin censurar ni oscurecer el texto original.
+
+
+               Haga clic en el Icono para aplicar tachado al texto seleccionado.
+
+
+
+
+               Subrayar
+
+
+
+               El subrayado agrega una línea horizontal a lo largo de la línea base del texto. Use el
+               subrayado para enfatizar una sección particular del texto o para mostrar que incluye un
+               enlace.]]></page><page Index="26"><![CDATA[Subrayar enlaces se considera una buena práctica en el diseño web. Si se aplica de forma
+
+               sistemática, puede ayudar a mejorar la accesibilidad del diseño.
+
+
+               Haga clic en el Icono para aplicar subrayado al texto seleccionado.
+
+
+               Consejo: Aplique un subrayado al texto seleccionado usando el atajo de teclado:
+
+
+
+                      ●  Mac: Option U
+                      ●  Ventanas: Ctrl U
+
+
+
+
+
+               Letra mayúscula
+
+
+
+               La función de mayúsculas y minúsculas le permite cambiar el texto seleccionado. Esto es
+               muy útil cuando desea cambiar entre mayúsculas y minúsculas sin tener que borrar y volver
+               a escribir el texto. Elija entre:
+
+
+                      ●   Mayúsculas : transforma el texto UPPER CASE
+
+                      ●   Minúsculas : transforma el texto lower case
+                      ●   Capitalizar : convierte el primer carácter de cada palabra en mayúscula. Es
+                          posible que lo conozcas cómo Title case.
+                      ●   Versalitas : transforma el texto en . Esto muestra las letras mayúsculas en línea
+                          con las letras minúsculas. Si bien esto parece una transformación a
+                          MAYÚSCULAS, es un poco diferente. Los caracteres en versalitas suelen tener
+
+                          proporciones diferentes (por ejemplo, peso o relación de aspecto).SMALL CAPS]]></page><page Index="27"><![CDATA[Liza
+
+
+
+               Las listas son una excelente manera de organizar y enfatizar información relacionada. Los
+               elementos de lista en Figma pueden ordenarse o desordenarse en forma de lista numerada
+               o con viñetas.
+
+
+
+
+               Números
+
+
+
+               La sección de números incluye todas las propiedades o características de las cifras
+               numéricas. Las propiedades de esta sección dependerá de la familia de fuentes que esté
+               utilizando.
+
+
+
+
+               Estilo
+
+
+
+               Las opciones de estilo incluyen figuras proporcionales y figuras monoespaciadas. Las
+               figuras proporcionales tienen un espaciado variable según el ancho del carácter que se
+               utilice. Las figuras monoespaciadas , también conocidas como figuras tabulares, tienen el
+               mismo ancho independientemente del carácter que se utilice.
+
+
+               Ambas figuras se ofrecen en mayúsculas (también llamadas estilo de línea) o minúsculas
+               (también llamadas estilo antiguo).
+
+
+                      ●  Mayúsculas/líneas proporcionales
+                      ●  Minúsculas proporcionales/estilo antiguo
+
+                      ●  Monoespaciado mayúsculas/líneas
+                      ●  Monoespaciado en minúsculas/estilo antiguo]]></page><page Index="28"><![CDATA[Posición (subíndice y superíndice)
+
+
+
+               Usar subíndice o superíndice para compensar la posición de números y caracteres.
+
+
+               Los caracteres subíndice se ubican debajo de la línea del texto. Los caracteres superíndice
+               se ubican encima de la línea del texto. Ambos tienen un tamaño predeterminado más
+               pequeño que el resto del texto.
+
+
+               Nota: Cuando se aplica superíndice/subíndice al texto, Figma intenta utilizar cualquier glifo
+
+               de superíndice/subíndice proporcionado por la fuente. Si no se proporciona, Figma dibuja
+
+               una versión sintetizada utilizando la versión estándar del carácter de la fuente, reduciéndose
+
+               y posicionándose en consecuencia.
+
+
+
+               A esto a menudo se le llama “ tipografía falsa ”.]]></page><page Index="29"><![CDATA[Además, si mezclas glifos superíndice/subíndice disponibles y no disponibles en la misma
+
+               capa de texto, todos se actualizarán a la forma sintetizada para lograr coherencia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Fracciones
+
+
+
+               Crea fracciones a partir de números. Introduce una fracción como X/X y haz clic en el botón
+               para convertirlo en una fracción.
+
+
+
+
+               Cero cortado
+
+
+               Utilice el cero con barra para mostrar el número entero cero con una barra atravesándolo.
+               Esta es otra forma de distinguirlo de la letra O.]]></page><page Index="30"><![CDATA[Características de OpenType
+
+
+
+               OpenType puede hacer referencia a un formato o a un conjunto de características o
+               funciones disponibles en una fuente. En este artículo, nos referimos a las características de
+               OpenType.
+
+
+               Figma admite funciones OpenType en todas las fuentes. No todas las fuentes admiten las
+
+               mismas funciones OpenType.
+
+
+               Las funciones admitidas incluyen formas de letras, conjuntos estilísticos, variantes de
+               caracteres, espaciado horizontal y más.
+
+
+               Cambio de tamaño
+
+
+               La propiedad de cambio de tamaño controla cómo se encoge o se agranda una capa de
+               texto para acomodar su contenido. Hay varias configuraciones disponibles:
+
+
+                      ●  Ancho automático
+                      ●  Altura automática
+                      ●  Tamaño fijo
+
+
+
+               Nota: Cuando haces clic en el lienzo para crear una capa de texto, Figma utiliza el ancho
+
+               automático . Si haces clic y arrastras en el lienzo, Figma utilizará el tamaño fijo . Si ajustas
+
+               el tamaño de una capa de texto después de crearla, Figma actualiza el cambio de tamaño a
+
+               tamaño fijo .
+
+
+
+
+               Ancho automático]]></page><page Index="31"><![CDATA[Con ancho automático el ancho de la capa de texto aumenta para que todo su contenido
+
+               quepa dentro de los límites de la capa. Figma creará nuevas líneas de texto cuando utilices
+               la tecla Retorno o Enter.
+
+
+
+               Altura automática
+
+
+
+               Con altura automática La capa de texto crece para adaptarse a su contenido. Figma
+               ajustará las líneas que se extiendan más allá del ancho original de la capa de texto a una
+               nueva línea.
+
+
+
+
+               Tamaño fijo
+
+
+               Tanto el ancho como la altura de la capa de texto permanecerán iguales,
+
+               independientemente del contenido de la capa. Figma ajustará cualquier texto adicional que
+               se extienda más allá de los límites horizontales de la capa. El texto aún puede extenderse
+               más allá de los límites verticales de la capa de texto sin recortarse. Esto puede dificultar la
+               alineación con otras capas.
+
+
+
+               Espaciado y formato
+
+
+
+
+               Espaciado de letras:
+
+
+               Espaciado de letras Permite definir el espacio entre caracteres de una palabra, línea o
+               párrafo. Esto puede determinar la facilidad de lectura del texto.
+
+
+               Esto no debe confundirse con el kerning , que se refiere al proceso de ajustar el espacio
+
+               entre caracteres individuales en un tipo de letra.]]></page><page Index="32"><![CDATA[Ajuste el espaciado entre letras de una capa de texto completa o de una selección de texto.
+
+               Para replicar el kerning, coloque el cursor entre dos letras y ajuste el espaciado entre letras.
+
+
+               Utilizar el campo para ajustar el espaciado entre letras para su selección, o utilice los atajos
+               del teclado:
+
+
+                      ●  Mac : Mantenga presionadas las teclas ⌥ Optiony <para aumentar o >disminuir.
+                      ●  Windows : Mantenga presionada la tecla Alty <para aumentar o >disminuir.
+
+
+
+               Si selecciona texto con diferentes valores de espaciado entre letras, Figma escalará el
+               espaciado entre letras proporcionalmente.
+
+
+               ¡Consejo! El tracking describe el proceso de espaciado entre letras en la impresión manual
+
+               y normalmente se representa en 1/1000 em. Una unidad de tracking (1/1000 em) equivale
+
+               aproximadamente a 0,001 em de espaciado entre letras (CSS). Puede utilizar esta fórmula
+
+               para convertir el tracking en espaciado entre letras: letter spacing = tracking/1000.
+
+
+
+
+               Altura de la línea
+
+
+
+               La altura de la línea permite controlar la distancia vertical entre las líneas de texto de un
+               párrafo. Esto puede ayudar a equilibrar los diseños y mejorar la legibilidad del texto. Es lo
+               mismo que el interlineado .
+
+
+               Las alturas de línea pequeñas pueden dificultar la lectura del texto. Las alturas de línea
+               grandes pueden hacer que el texto se vea desordenado y desorganizado.
+
+
+
+               Utilizar el campo para ajustar el espacio vertical entre líneas de texto, o utilice los atajos de
+               teclado:]]></page><page Index="33"><![CDATA[●  Mac: Mantenga presionada la tecla ⇧ Shift ⌥ Option Y <para aumentar o
+
+                          >disminuir.
+                      ●  Windows: Mantenga presionada la tecla Alt Shift Y <para aumentar o >para
+                          disminuir.
+
+
+
+               Figma le permite establecer una altura de línea fija en píxeles (px) o una altura de línea que
+               es un porcentaje del tamaño de la fuente (%) .
+
+
+               Figma utiliza la altura de línea intrínseca de una fuente como valor predeterminado ( Auto ),
+
+               que varía según la tipografía. Puede cambiar entre alturas de línea fijas y porcentuales y
+               Figma convertirá el valor por usted al píxel más cercano.
+
+
+               Traducción de la altura de línea: cada plataforma tiene una forma diferente de representar la
+
+               altura de línea. Figma incluye valores y medidas para cada plataforma en el modo de
+               desarrollo.
+
+
+
+               También puede ver unidades de medida alternativas. Para la altura de línea, esto significa
+
+               una altura de línea fija en píxeles y un porcentaje del tamaño de fuente.
+
+
+
+               También puede ver estos valores en el panel  Propiedades , en Tipografía , si tiene acceso
+
+               de visualización al archivo y no usa el Modo Dev.]]></page><page Index="34"><![CDATA[Espaciado de listas
+
+
+
+               El espaciado de listas le permite controlar la distancia entre cada elemento de línea en una
+               lista numerada o con viñetas. De forma predeterminada, el espaciado de listas se establece
+               en 0 cuando se crea una nueva lista y para cualquier estilo de texto existente. Figma
+
+               representa el espaciado de listas en píxeles (px).
+
+
+               Para ajustar el espaciado de los elementos de la lista:
+
+
+                      1.  Seleccione texto en una lista o una capa de texto con solo texto de lista.
+                      2.  Utilizar el campo para ingresar un valor px. O pase el cursor sobre el ícono y
+                          arrastre para disminuir (izquierda) o aumentar (derecha) el valor.
+
+
+
+               También puede ajustar el espaciado de la lista desde el panel de detalles de tipo haciendo
+               clic en la sección Texto de la barra lateral derecha.
+
+
+
+
+               Sangría de párrafo
+
+
+
+               La sangría de párrafo desplaza el texto de la primera línea hacia la derecha. Solo se puede
+               aplicar la sangría de párrafo a texto que utilice Text-Align Left .
+
+
+               Una buena regla general es evitar sangrías mayores a 4 veces el tamaño de la fuente.
+               También recomendamos tener en cuenta el ancho de la capa de texto: cuanto más ancha
+               sea la capa, mayor será la sangría.
+
+
+               Figma representa la sangría de párrafo como un valor de píxel (px) . Utilice el campo
+               Sangría de párrafo para ajustar la sangría de párrafo.]]></page><page Index="35"><![CDATA[Consejo: la sangría de párrafos se aplica a todos los párrafos de una capa de texto. Si
+
+               desea sangrar un solo párrafo, deberá crear una capa de texto independiente para él.
+
+
+
+
+               Espaciado entre párrafos
+
+
+               Espaciado entre párrafos Le permite controlar la distancia entre párrafos. Esto puede
+               aumentar o reducir el espacio en blanco alrededor del texto en su diseño. El espacio en
+               blanco puede ayudar a centrar la atención del espectador, así como a aumentar la
+
+               legibilidad.
+
+
+               Figma representa el párrafo en píxeles (px) . Ingrese un valor en px en el campo de
+               espaciado entre párrafos o pase el cursor sobre el ícono y arrástralo para disminuir
+               (izquierda) o aumentar (derecha) el valor.
+
+
+               Nota: Figma creará un nuevo párrafo cuando utilices las teclas Enter o Return. Esto es algo
+
+               que debes tener en cuenta si el cambio de tamaño del texto está configurado en Ancho
+
+               automático .
+
+
+
+
+               Truncamiento de texto y líneas máximas
+
+
+
+               Truncar texto Oculta el texto que sobrepasa el cuadro delimitador. Se agregan puntos
+               suspensivos ...al final del texto para indicar que el texto que sobrepasa el cuadro delimitador
+               está oculto.
+
+
+               Líneas máximas le permite establecer el número de líneas de texto antes de que se
+               trunque.]]></page><page Index="36"><![CDATA[El número máximo de líneas sólo está disponible si está habilitado el truncamiento de texto
+
+               y:
+
+
+                      ●  El cambio de tamaño del texto se establece en altura automática o ancho
+                          automático
+                      ●  El cambio de tamaño vertical está configurado para adaptarse al contenido (para
+                          el texto que se encuentra en marcos de diseño automático)
+
+
+
+
+               Recorte vertical
+
+
+               Utilice el recorte vertical para eliminar el espacio adicional por encima y por debajo del texto.
+               Esto permite que las capas de texto se comporten como otros componentes de su diseño al
+
+               eliminar la ambigüedad alrededor del cuadro delimitador del contenido de texto.]]></page><page Index="37"><![CDATA[Esto puede ayudar con la transferencia al facilitar el análisis de los valores de margen y
+               relleno CSS con medidas de píxeles precisas que coincidan con sus diseños.
+
+
+
+
+               Citas colgantes
+
+
+
+               Activa o desactiva las comillas colgantes para mover las comillas de apertura de una capa
+               de texto fuera del cuadro delimitador.]]></page><page Index="38"><![CDATA[Listas colgantes
+
+
+               Activa o desactiva las listas colgantes para mover las viñetas o los números de cada
+               elemento de la lista fuera del cuadro delimitador. Esto alinea el contenido del texto con el
+
+               cuadro delimitador.]]></page><page Index="39"><![CDATA[Fuentes variables
+
+
+
+               Una fuente variable ofrece una variedad de variaciones de fuente dinámicas para un tipo de
+               letra en un solo archivo. Mientras que las fuentes estáticas solo pueden contener una fuente
+               por archivo, una fuente variable puede contener muchas.
+
+
+               Las fuentes variables también contienen una amplia gama de personalizaciones de
+
+               propiedades, como peso, ancho, tamaño óptico e inclinación, pero los autores de fuentes
+               también pueden proporcionar personalizaciones adicionales para más opciones de estilo.
+
+
+
+               Agregar imágenes y vídeos a los archivos de diseño
+
+
+               Agregue imágenes y videos a sus archivos de diseño para incorporar fotografías, capturas
+               de pantalla u otros recursos visuales a sus diseños.
+
+
+               Los tipos de archivos admitidos incluyen:
+
+
+                      ●  Archivos de imágenes rasterizadas JPG, PNG, HEIC, WebP, TIFF (solo
+                          disponible en Safari) y GIF
+                      ●  Archivos de vídeo MP4, MOV y WebM
+
+
+
+               Nota: Cuando se importa un gráfico vectorial escalable (SVG) a un archivo de diseño de
+
+               Figma, el SVG ya no se trata como una imagen. Mientras que las imágenes rasterizadas se
+
+               aplican a las capas como propiedades de relleno, las imágenes vectoriales se convierten en
+
+               capas vectoriales que se pueden editar, al igual que otras formas dibujadas en Figma.]]></page><page Index="40"><![CDATA[Figma no tiene un tipo de capa específico para imágenes rasterizadas y videos. En cambio,
+
+               son un tipo de relleno . Esto le permite agregar imágenes y videos a cualquier forma o red
+               vectorial.
+
+
+               Vea y actualice los rellenos de imágenes y videos en la sección Relleno de la barra lateral
+               derecha. Figma mostrará una miniatura en la muestra y una etiqueta Image, Video, o GIF.
+
+
+               Las imágenes y los vídeos rasterizados añadidos al lienzo crean un rectángulo con el
+               recurso configurado como relleno del objeto. Se pueden identificar en la barra lateral
+               izquierda con lo siguiente:
+
+
+                      ●  Las imágenes estáticas tendrán un icono de imagen junto al nombre de su capa
+
+                      ●  Los videos y GIF tendrán un icono de video junto al nombre de su capa
+
+
+
+               Si los agrega a un objeto existente, Figma usa el ícono de capa y la descripción de la capa
+               original.
+
+
+               Nota: Figma reduce el tamaño de las imágenes con un ancho o alto mayor a 4096 píxeles .
+
+               Esto escala las dimensiones originales de la imagen proporcionalmente, de modo que el
+
+               borde más largo sea menor a 4096 píxeles.
+
+
+
+               A veces, Figma necesita decodificar y convertir una imagen antes de agregarla al archivo.
+
+               Por este motivo, no podemos garantizar que Figma conserve todos los metadatos del
+               archivo.
+
+
+
+
+               Agregar imágenes y vídeos a los archivos]]></page><page Index="41"><![CDATA[Como las imágenes y los vídeos rasterizados son rellenos, puedes añadirlos a cualquier
+               vector o forma. Esto te ofrece mayor flexibilidad y control.
+
+
+               Hay varias formas de agregar imágenes a los archivos de diseño:
+
+
+                   A.  Arrastre y suelte archivos de imagen desde su computadora al lienzo
+                   B.  Importa imágenes estáticas al explorador de archivos . Figma crea un nuevo archivo
+
+                       de diseño en el proyecto con la imagen agregada como un rectángulo.
+                   C.  Añade imágenes y vídeos en bloque . Elige a qué capas quieres añadir imágenes.
+                   D.  Utilice el selector de color para cargar una imagen o un vídeo
+                   E.  Copiar y pegar una imagen entre objetos y desde el portapapeles
+
+                   F.  También puedes agregar videos y GIF animados a tus prototipos. Los GIF solo se
+
+                       reproducen cuando se visualizan diseños y prototipos en la vista de presentación.]]></page><page Index="42"><![CDATA[Editar imágenes
+
+
+               Hay muchas formas de editar o ajustar imágenes:
+
+
+                      ●  Escalar, rotar y ajustar las dimensiones de cualquier capa con imágenes
+                      ●  Recortar y posicionar imágenes aplicadas a capas
+                      ●  Ajuste las opciones de imagen, incluido el modo de relleno, la rotación y los
+                          modos de fusión.
+
+                      ●  Incluye imágenes en estilos y componentes.
+                      ●  Aplicar máscaras para mostrar solo una parte de la imagen
+                      ●  Realizar ajustes a las imágenes como cambiar el tono, la saturación o el
+                          contraste.]]></page><page Index="43"><![CDATA[Desafío N° 5:
+
+
+
+               Siguiendo con la problemática elegida deberás:
+
+                   ●  Crear el prototipo partiendo de la idea (sketch),
+
+                   ●  Deberás crear la primera pantalla de tu prototipo en Figma.]]></page><page Index="44"><![CDATA[]]></page></pages></Search>

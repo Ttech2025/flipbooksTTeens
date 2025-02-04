@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="11"><page Index="1"><![CDATA[Videojuegos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         Clase 10]]></page><page Index="2"><![CDATA[Clase N° 10 | Conceptos básicos
+
+
+
+
+
+               Temario:
+
+
+
+
+
+                   ●   Proyecto integrador
+
+                   ●   Buildear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Información de nuestro proyecto]]></page><page Index="3"><![CDATA[Cuando instalamos un videojuego, sus desarrolladores nos brindan toda la
+
+               información necesaria para poder identificarlo, desde la versión del juego (que
+
+               puede variar con el paso del tiempo y los hitos del desarrollo del mismo), su
+
+               nombre y un ícono. Pero ¿para qué nos sirve reconocer esta información?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Principalmente para poder reconocer sus características sin necesidad de iniciar
+
+               el juego, identificar compatibilidades, saber cuánto espacio de almacenamiento
+
+               ocupará en sus equipos, etc.]]></page><page Index="4"><![CDATA[Nuestro rol como game devs nos permite brindar esa información a nuestros
+
+               usuarios finales. Esto lo podemos hacer dentro del motor de videojuegos que
+
+               estemos utilizando para desarrollarlo. En nuestro caso vamos a verlo con Unity.
+
+               Empezando por los íconos. Para eso vamos a ir a Edit → Project Settings → Player]]></page><page Index="5"><![CDATA[Dentro de Player vamos a ir a la opción Default Icon y cuando hacemos click en
+
+               Select, el motor va a pedir que carguemos un archivo del tipo Texture 2D, es
+
+               decir, esas imágenes que generalmente utilizamos en formato PNG para
+
+               cargarlas como texturas a nuestros materiales.
+
+
+
+
+               Esas texturas se guardan dentro de nuestra carpeta Assets del proyecto. Si aún
+
+               no tenemos una imágen cargada para utilizar como ícono, entonces vamos a
+
+               crear una carpeta dentro de nuestro proyecto llamada “Icon”. A la que le vamos
+
+               a importar la imágen en formato PNG que vayamos a utilizar.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  Super TIP importantísimo: Recuerden que tiene que ser distintiva así
+
+
+               reconocemos el juego.]]></page><page Index="6"><![CDATA[El tamaño de la imágen suele ser estándar: 64 x 64 píxeles o 512 x 512 píxeles,
+
+               siempre que la imágen esté en formato PNG la calidad se va a conservar.
+
+               Ahora que tenemos importada nuestra imágen, volvamos a Player dentro de
+
+               Project Settings.
+
+               Cargamos nuestro ícono y vamos a ver más opciones de personalización como
+
+               el nombre de nuestra compañía, el nombre del juego y la versión en la que se
+
+               encuentra.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               La modificación de versiones de nuestro proyecto dependerá de la magnitud de
+
+
+               los cambios que realicemos y se modifican de derecha a izquierda. A esto le
+
+               decimos sistema de versionado semántico.]]></page><page Index="7"><![CDATA[Configuración del proyecto y ejecutable
+
+
+
+               Ahora que tenemos toda la información del juego necesaria, vamos a finalizar
+
+               con la configuración del proyecto y realizar un primer ejecutable.
+
+
+                File → Build Settings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               En Build Settings vamos a poder modificar la plataforma en la que queremos
+
+               que nuestro videojuego sea jugado. Podemos elegir PC (con distintos sistemas
+
+               operativos), Android, iOS y consolas de videojuegos entre otras.
+
+
+
+
+
+                  Super TIP: Para exportar nuestro proyecto en plataformas que no sean PC se
+
+               necesitan configuraciones adicionales. ¿cómo cuáles?]]></page><page Index="8"><![CDATA[Seleccionamos las escenas que queremos que formen parte del juego y también
+
+               el órden en el que queremos que se ejecuten.
+
+
+
+
+               Hacemos click en el botón Build and Run, esto nos abre el explorador de archivos
+
+               y nos pide que seleccionemos una carpeta en la que se va a alojar el ejecutable.
+
+
+
+
+               Podemos guardarlo fuera del proyecto o crear una carpeta dentro del mismo.
+
+               Hacemos clic en “Seleccionar carpeta” y el proyecto comenzará a compilar.]]></page><page Index="9"><![CDATA[   Datazo super importante: Si el script tiene errores de compilación el proyecto
+
+               NO se va a exportar. Por lo que es importante que revisemos en detalle cada
+
+               uno de los scripts asociados a nuestros objetos.
+
+
+
+
+               Una vez terminado, basta con ingresar a la carpeta creada en el espacio
+
+               seleccionado y encontrarás el Ejecutable junto con todos los archivos necesarios
+
+               para inicializar el juego.
+
+               ¡Listo, ya tenés tu videojuego exportado y listo para jugar!]]></page><page Index="10"><![CDATA[Desafío N° 10:
+
+
+
+
+
+
+
+
+
+
+               Elegí un nombre para tu proyecto como vimos en clase.
+               Agregá un ícono a tu .exe podés crear vos un ícono o descargar uno desde internet
+
+               Buildeá tu proyecto.
+               Subí el proyecto al espacio correspondiente del Desafío 10 (o mandalo por mail al
+
+               mentor de tu clase)]]></page><page Index="11"><![CDATA[]]></page></pages></Search>

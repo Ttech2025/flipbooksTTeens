@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="11"><page Index="1"><![CDATA[Desarrollo
+
+
+
+
+
+
+
+
+        Web 3
+
+
+
+
+
+
+
+
+
+
+
+
+         Clase 05]]></page><page Index="2"><![CDATA[Clase N° 5 | Práctica y Github
+
+
+
+
+
+               Temario:
+
+                   ●   Realizaremos un trabajo integrador que permita consolidar los conocimientos
+                       adquiridos hasta el momento.]]></page><page Index="3"><![CDATA[Lista de Tareas en Github                   
+
+
+
+               ¡Te damos la bienvenida a la Clase #5 de DW3! En esta oportunidad estaremos cubriendo
+               de manera práctica la clase para darle una conclusión a esta primera parte del curso. Los
+               desafíos #1 y #2 reflejan que hemos hecho lo siguiente:
+
+
+                   ●   Configuración Inicial
+               Crea una nueva aplicación Vite con el template de React.
+               Instala Bootstrap y Bootswatch como dependencias.
+
+
+                   ●   Estilos con Bootstrap y Bootswatch
+               Configura la importación de estilos en la aplicación Vite para incluir Bootstrap y Bootswatch.
+
+
+                   ●   Componente de Lista de Tareas
+               Crea un componente TaskList.jsx en la carpeta src/components para mostrar la lista de
+               tareas.
+               Utiliza el estado (useState) para manejar la lista de tareas.
+               Simula la carga de datos desde una API utilizando fetch y useEffect.
+
+                   ●   Integración en la Aplicación Principal
+               Actualiza el componente principal App.jsx para utilizar el componente TaskList.
+
+
+                   ●   Ejecución y Verificación
+               Ejecutar la aplicación Vite y verificar que la lista de tareas se muestra correctamente en el
+               navegador.
+               Asegurarse de que los estilos de Bootstrap y Bootswatch estén aplicados.
+
+
+
+                 Este ejercicio combina, en su totalidad, los conceptos vistos en las clases 1, 2, 3 y 4,
+               incluyendo la creación de componentes, el manejo de estado con useState, el uso de
+               efectos con useEffect, la integración de estilos con Bootstrap y el consumo de una API para
+               obtener datos simulados de tareas. Se valorará la organización del código, el correcto uso
+               de los hooks de React y la integración exitosa de estilos utilizando Bootstrap y Bootswatch.
+
+
+               Ahora, ¿cómo seguimos? Vamos a subir nuestro proyecto en GitHub.]]></page><page Index="4"><![CDATA[GitHub
+
+
+
+               GitHub es una plataforma de desarrollo colaborativo que utiliza el sistema de control de
+               versiones Git. Permite a los desarrolladores trabajar juntos en proyectos de software, llevar
+               un historial de cambios, realizar un seguimiento de problemas y contribuir al código de
+               otros. GitHub proporciona herramientas para gestionar proyectos de manera eficiente,
+               realizar solicitudes de extracción, revisar código, y alojar repositorios de código fuente de
+               forma pública o privada. Es ampliamente utilizado en la comunidad de desarrollo de
+               software para facilitar la colaboración y el control de versiones en proyectos.
+
+               ¿Cómo crear una cuenta en GitHub?        
+
+
+               1. Accede al Sitio Web de GitHub: https://github.com/
+
+
+               2. Inicia el Proceso de Registro
+
+               3. Haz clic en "Sign up" (Registrarse)]]></page><page Index="5"><![CDATA[4. Completa el Formulario:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               5. Completa el Captcha:]]></page><page Index="6"><![CDATA[6. Selecciona el Plan Gratuito:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               7. Verifica Tu Cuenta:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               8. Abre el correo electrónico que recibas y sigue las instrucciones para verificar tu cuenta.
+
+               ¡Listo! Ahora tienes una cuenta en GitHub. Personaliza tu perfil y comienza a explorar
+               proyectos.]]></page><page Index="7"><![CDATA[¿Cómo subir nuestro proyecto a Github?
+               Desde la terminal de VSCode vamos seguir algunos pasos básicos:
+
+               1. Inicializar un Repositorio Local:
+                   ●   Abre la terminal en VSCode.
+                   ●   Navega al directorio de tu proyecto usando el comando `cd ruta/de/tu/proyecto`.
+                   ●   Inicializa un nuevo repositorio Git ejecutando `git init`.
+
+               2. Agregar Archivos al Repositorio:
+                   ●   Agrega todos los archivos al repositorio con `git add .`. Este comando preparará
+                       todos los archivos para el commit.
+
+
+
+
+
+               3. Realizar el Commit Inicial:]]></page><page Index="8"><![CDATA[●   Realiza el commit inicial con un mensaje descriptivo usando `git commit -m "Primer
+                       commit"`.
+
+
+               4. Crear un Repositorio en GitHub:
+                   ●   Ve a [GitHub](https://github.com/) y accede a tu cuenta.
+                   ●   En la esquina superior derecha, haz clic en el signo '+' y selecciona "Nuevo
+                       repositorio".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   ●   Sigue las instrucciones para configurar el nuevo repositorio en GitHub. No inicialices
+                       con un archivo README, ya que ya tienes un repositorio local.]]></page><page Index="9"><![CDATA[5. Conectar el Repositorio Local con GitHub:
+                 - Copia el enlace proporcionado después de crear el repositorio en GitHub.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   ●   En la terminal de VSCode, ejecuta el siguiente comando, reemplazando
+                       `<enlace-del-repositorio>` con el enlace que copiaste:
+
+
+                    git remote add origin <enlace-del-repositorio>]]></page><page Index="10"><![CDATA[6. Subir los Archivos a GitHub:
+                   ●   Sube los archivos al repositorio en GitHub con el siguiente comando:
+
+
+                  git push -u origin master
+
+
+               Si estás en una rama diferente a `master`, reemplaza `master` con el nombre de tu rama.
+
+
+               ¡Listo! Ahora tu proyecto web está en GitHub. Puedes realizar cambios en tu código, hacer
+               commits locales y luego subir esos cambios a GitHub usando `git push`.
+
+               ¡Genial! Ahora ya sabemos cómo subir nuestros proyectos a Github. Principalmente, esto
+               nos ayudará a poder aligerar el peso de memoria de nuestros PCs. Una vez que tengamos
+               un proyecto en Github, podremos hacer lo querramos con nuestro proyecto local. Podemos
+               continuar trabajando y seguir subiendo versión a versión hasta llegar al final, o mismo,
+               podemos eliminarlo si sabemos que no lo estaremos usando por un buen tiempo.
+
+               ¡Eso es todo por hoy! Nos vemos en la Clase #6  ✌]]></page><page Index="11"><![CDATA[]]></page></pages></Search>

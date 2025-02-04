@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="12"><page Index="1"><![CDATA[Diseño
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       UX / UI
+
+
+
+
+
+        Clase 06]]></page><page Index="2"><![CDATA[Clase N° 6 | Conceptos básicos
+
+
+
+
+               Temario:
+
+
+                   ●  Diferencia entre wireframes y mockups.
+                   ●  Herramientas para crear wireframes y mockups.
+                   ●  Práctica: Diseñar wireframes del producto elegido.]]></page><page Index="3"><![CDATA[Diferencias entre Wireframes y Mockups:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               *Imagen sacada de Adictos al Trabajo by Autentia
+
+               Baja fidelidad:  los wireframes de baja fidelidad suelen ser esquemas planos en papel o
+               hechos incluso con algún programa de diseño gráfico. No suelen tener mucho lujo de
+               detalles y sirven como una primera idea general de la estructura del producto.
+
+               Alta fidelidad:  los wireframes de alta fidelidad suelen ser esquemas más elaborados en
+               escala de grises. Estos suelen contener anotaciones que explican qué hace cada botón,
+               sección, etc. El texto que se utiliza podría ser texto real. No debe confundirse con un diseño
+               final. Aquí sí que suelen hacerse con un editor gráfico.
+
+               Mockup:]]></page><page Index="4"><![CDATA[El mockup a diferencia del wireframe da un paso más allá y dejamos de tener la baja
+               fidelidad que teníamos en el wireframe a pasar a una alta fidelidad con colores, imágenes
+               tipografía, sombras, etc.
+
+
+               Herramientas para crear wireframes y mockups.
+
+
+               Las herramientas más eficaces dependen de si vas a diseñar y prototipar flujos por los
+               que avanzar el usuario (Figma, Sketch, Invision, Adobe XD) o si dispones de las pantallas
+               ya diseñadas y quieres crear animaciones y un prototipo algo más funcional]]></page><page Index="5"><![CDATA[]]></page><page Index="6"><![CDATA[PRIMEROS PASOS:
+
+
+               Cambiar el nombre al proyecto:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Figma nos va a permitir añadir hasta 3 PÁGINAS. Si quisiéramos una cuarta , se tendría
+               que cambiar el plan PREMIUM.]]></page><page Index="7"><![CDATA[* Para este curso con el FREE nos alcanzará.
+
+
+               Menú de figma
+
+               el "Move", "Hand Tool" y "Scale" tienen funciones específicas que ayudan a los diseñadores
+               a manipular objetos y navegar por el espacio de trabajo de manera eficiente
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               En Figma, el concepto de Frame (marco) es fundamental y versátil. Un frame en Figma
+               puede ser considerado como un contenedor que puede albergar otros objetos, como textos,
+               formas, imágenes, y otros frames. Podremos añadir Frames a nuestro proyecto dando click
+               en el botón de # o tocando la tecla F
+
+
+
+
+
+
+
+
+
+
+               Esto nos permitirá añadir varios Frame :]]></page><page Index="8"><![CDATA[]]></page><page Index="9"><![CDATA[*VIDEO EXPLICATIVO : Creación de Frame
+
+               Zoom en Figma:
+
+
+                   ●  Zoom to fit : nos permite ajustar los frame a medida de página. dando click en el
+                       frame y tocando el atajo Shift + 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   ●  Zoom to selection: Nos permite , seleccionar el frame que queremos ver, dando click
+                       en el frame y tocando el atajo Shift + 2
+
+               *Con el atajo control + 0  hacemos el zoom al 100%
+
+                   ●  VIDEO EXPLICATIVO : zoom]]></page><page Index="10"><![CDATA[Figuras Vectoriales: Rectángulos etc..
+
+               En Figma, las herramientas para crear formas básicas como el rectángulo, la elipse y otras
+               similares son esenciales para cualquier tipo de diseño gráfico o de interfaces de usuario.
+
+
+
+
+
+
+
+
+
+
+
+
+               *VIDEO EXPLICATIVO : Figuras]]></page><page Index="11"><![CDATA[Desafío N° 6:
+
+
+                   ●  Diseña un Wireframe en Figma
+
+                   ●  Crear un wireframe de una pantalla principal de tu producto en Figma.
+
+                   ●  Abre Figma:Si aún no tienes una cuenta, regístrate en Figma (en la clase 4 te
+                       explicamos cómo hacerlo)  y crea un nuevo proyecto.
+
+                   ●  Selecciona la Pantalla:Elige una pantalla clave de tu producto que quieras diseñar,
+                       como la pantalla de inicio, el panel de usuario o la página de producto.
+
+                   ●  Diseña el Wireframe:Estructura Básica: Usa formas básicas (rectángulos, líneas)
+                       para definir la estructura de la pantalla.
+
+                   ●  Elementos Clave: Incluyen elementos esenciales como barras de navegación,
+                       botones, campos de entrada y áreas de contenido.
+
+                   ●  Interactividad: Representa la navegación entre diferentes secciones o pantallas si es
+                       necesario.
+
+                   ●  Utiliza Componentes y Estilos:Aprovecha los componentes y estilos predefinidos en
+                       Figma para mantener la coherencia y eficiencia en tu diseño.]]></page><page Index="12"><![CDATA[]]></page></pages></Search>

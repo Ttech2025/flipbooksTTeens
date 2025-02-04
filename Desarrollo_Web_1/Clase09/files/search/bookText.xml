@@ -1,0 +1,694 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="30"><page Index="1"><![CDATA[Desarrollo
+
+
+
+
+
+
+
+
+        Web 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         Clase 09]]></page><page Index="2"><![CDATA[Clase N° 9 |
+
+
+
+
+
+               Temario:
+
+                   ●   Dominios
+                   ●   Hosting
+                   ●   Git/Github
+                   ●   Creación de cuenta Github
+                   ●   Github pages]]></page><page Index="3"><![CDATA[Dominio y hosting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Para que un sitio web funcione, necesita ambas cosas: un hosting y un dominio
+               web.Poniéndolo en palabras sencillas, hosting es el espacio de almacenamiento donde se
+               alojan los archivos que componen tu sitio web, y el dominio es el nombre con el que tus
+               visitantes accederán a él. Ahondemos más en el tema para quitarte todas las dudas.
+
+
+
+
+
+
+
+               Dominios:
+
+
+
+               Un dominio en la web es la dirección única que identifica un sitio en Internet. Por ejemplo,
+               "www.ejemplo.com.ar" es un dominio. Los dominios se utilizan para facilitar la navegación y
+               para identificar de manera única a cada página. Están compuestos por dos partes: el
+               nombre de dominio y la extensión.
+
+               El nombre es la parte principal y única del dominio. En el ejemplo "www.ejemplo.com.ar",
+               "ejemplo" es el nombre de dominio.]]></page><page Index="4"><![CDATA[La extensión de dominio, es la parte que sigue al nombre. En "www.ejemplo.com.ar",
+               ".com.ar" es la extensión de dominio.
+
+
+               Registrar un dominio implica pagar una tarifa para asegurar el derecho de uso exclusivo de
+               ese nombre en Internet por un período de tiempo específico. El registro de dominios se
+               realiza a través de proveedores de dominios autorizados. Al registrar un dominio a nuestro
+               nombre somos “dueños” de esa dirección en internet.
+
+
+               Algunos proveedores populares en argentina son:
+               Nic.ar    
+               Don web     
+
+
+
+
+               Hosting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               El hosting, es un servicio que permite a los usuarios guardar y publicar sus páginas web en
+               Internet. Todos los archivos, imágenes y contenido relacionado con tu sitio deben residir en
+               un servidor conectado a Internet para que los usuarios puedan acceder a ellos.
+
+
+               Al contratar un servicio de hosting, estamos comprando (o alquilando) espacio en sus
+               servidores para almacenar estos archivos. Algunos proveedores de hosting también ofrecen]]></page><page Index="5"><![CDATA[otros servicios como cuentas de email, bases de datos, etc. En síntesis, un proveedor de
+               hosting nos brinda todo lo necesario para que nuestra página esté online.
+
+
+               En resumen, mientras que un dominio es la dirección única que identifica tu sitio web en
+               Internet, el hosting es el servicio que te permite almacenar y compartir los archivos de tu
+               página para que otros puedan visitarlo. Los dos son fundamentales para tener un sitio web
+               en funcionamiento.
+
+
+
+
+
+
+
+
+               GIT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Git es un sistema de control de versiones gratuito y de código abierto, diseñado para
+               manejar desde pequeños a grandes proyectos de manera rápida y eficaz. Este sistema
+               registra de manera local (en nuestra pc) los cambios realizados sobre un archivo o conjunto
+               de archivos a lo largo del tiempo.
+
+
+               Existen otros sistemas de control de versiones, pero Git es por mucha diferencia el más
+               adoptado por los desarrolladores en todo el mundo.]]></page><page Index="6"><![CDATA[Los 3 estados de Git
+
+
+               En Git, tus archivos pasan por tres estados principales
+
+                   -   Confirmado (committed): Tus archivos están seguros en tu base de datos local
+                       después de confirmar los cambios. Es como guardar el archivo.
+
+
+                   -   Modificado (modified): Has cambiado algo en el archivo, pero aún no lo has
+                       guardado de manera permanente en tu base de datos. Es como hacer ediciones en
+                       un documento, pero aún no has guardado esos cambios.
+
+                   -   Preparado (staged): Has marcado las modificaciones que has hecho y las has
+                       preparado para ser guardadas en la próxima confirmación. Es como decirle a Git que
+                       lo que editaste tiene que incluirse en tu próxima versión.
+
+               Esto nos lleva a las tres secciones principales de un proyecto de Git: el repositorio de
+               Git (Git directory), el directorio de trabajo (working directory), y el área de preparación
+               (staging area).
+
+
+                   -   Repositorio de Git (Git directory): Donde Git guarda la información sobre los
+                       cambios y la historia del proyecto.
+
+                   -   Directorio de trabajo (working directory): Donde trabajas en tus archivos y haces
+                       modificaciones.
+
+                   -   Área de preparación (staging area): Un lugar intermedio donde seleccionas y
+                       preparas los cambios específicos que quieres incluir en tu próxima confirmación. Es
+                       como una lista de "cosas para incluir en la próxima versión".]]></page><page Index="7"><![CDATA[Cada vez que hacemos un commit se crea un “checkpoint” de nuestro proyecto. un punto
+               estable al cual podemos volver si aparece algún problema en el futuro.]]></page><page Index="8"><![CDATA[Instalación paso a paso
+
+
+
+               Para poder usar git en nuestro equipo, primero debemos instalarlo.
+
+               1 - Entra en https://git-scm.com/ y descarga el paquete de instalación
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               2- Ahora ejecuta el archivo descargado, y elige la carpeta donde ubicar los archivos de Git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               3- Asegúrate de tener seleccionado git bash que es la herramienta principal con la que
+               trabajaremos y con esto se terminará la instalación]]></page><page Index="9"><![CDATA[4- Ahora tenés disponible Git Bash en tu lista de programas, aquí es donde trabajaremos
+               con Git. La abrimos y escribimos git --version y le damos enter.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Listo! ya tenés git instalado!]]></page><page Index="10"><![CDATA[Son muchos conceptos nuevos y bastante abstractos. No se preocupen que con la práctica
+               van a poder entenderlo un poco mejor!]]></page><page Index="11"><![CDATA[Github
+
+
+
+               Github es un servicio para guardar repositorios de Git online. Es un sitio web que está
+               pensado para compartir y guardar el código de una manera más fácil.
+               Para resumir:
+               GitHub va a ser la plataforma donde guardaremos nuestros repositorios de git para que
+               estén disponibles online. Además utilizaremos la herramienta github desktop para manejar
+               nuestros repositorios locales y mantenerlos sincronizados con la versión online.
+
+
+
+
+               Crear cuenta paso a paso
+
+
+
+
+               El primer paso será entrar en https://github.com/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Luego deberemos crear nuestro usuario haciendo click en el botón “sign up for GitHub”]]></page><page Index="12"><![CDATA[Ingresamos mail y contraseña para crear el usuario. La contraseña debe tener al menos 8
+               caracteres e incluir letras y números.
+
+
+               Perfecto, si todo salió bien seremos redirigidos a nuestro panel de control.]]></page><page Index="13"><![CDATA[Primeros pasos con Git
+
+
+               Aprender a utilizar git por consola para controlar versiones de nuestros proyectos puede ser
+               abrumador. Les compartimos este video con los comandos básicos y más importantes:
+
+                 GIT ADD + GIT COMMIT + GIT PUSH TUTORIAL             |CONFIGURACIÓN FÁCIL 2021|
+               Introducción a GIT y GITHUB #4
+
+
+
+
+               Github Desktop
+
+
+
+
+               Para facilitar el proceso de crear y actualizar repositorios de git y sincronizarlos con nuestra
+               cuenta de Github, instalaremos Github Desktop desde https://desktop.github.com/]]></page><page Index="14"><![CDATA[Una vez que lo hayamos instalado veremos la siguiente pantalla]]></page><page Index="15"><![CDATA[Crear nuevo repositorio
+
+
+
+               Seleccionamos “crear un nuevo repositorio en tu disco duro” y nos va a pedir que le demos
+               un nombre y que seleccionemos la carpeta para crearlo. Debemos seleccionar la carpeta
+               donde estuvimos trabajando con nuestra página.]]></page><page Index="16"><![CDATA[y le hacemos click en create repository. Demora unos instantes mientras Github desktop
+               hace su magia y ya tenemos listo el repositorio, además Github desktop se encarga de
+               crear el primer commit con la primera versión de nuestro proyecto.
+
+
+
+
+
+
+
+
+
+               Etapa Staging y Commit
+
+
+
+               El siguiente paso es hacer alguna modificación en el código para poder guardarla en una
+               nueva versión. No tiene que ser un cambio grande, git va a detectar cualquier cosa que
+               modifiquen aunque solo sea agregar un espacio o cambiar una palabra.]]></page><page Index="17"><![CDATA[en la parte inferior izquierda tenemos el espacio para incluir la descripción y el nombre de
+               nuestro commit. Hacer commit significa que los cambios que hicimos en el código pasan a
+               formar parte de la versión estable del proyecto.
+
+
+
+
+               Sincronizar con GitHub
+
+
+
+               Ahora sólo falta sincronizarlo con la versión online en GitHub.
+
+
+               Para eso hacemos click en el botón publish repository
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               y nos pedirá que iniciemos sesión en github]]></page><page Index="18"><![CDATA[Entramos en continue with browser para iniciar sesión con nuestro mail y contraseña en
+               github y autorizamos GitHub desktop a realizar modificaciones en nuestro perfil. ¡Ya casi
+               estamos!
+               Una vez que la aplicación está autorizada, nos devuelve a Github Desktop y podemos
+               publicar el repositorio online.]]></page><page Index="19"><![CDATA[Le damos un nombre y una descripción (opcional) y quitamos el tilde de la casilla keep this
+               code private. Ahora si podemos publicar el repositorio haciendo click en publish repository]]></page><page Index="20"><![CDATA[Ver el repositorio online
+
+
+
+               y ahora si, ya tenemos el repositorio online!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               podremos verlo haciendo click en view on Github]]></page><page Index="21"><![CDATA[Este es el panel de control del repositorio. ya tenemos nuestro código online. Pero cómo
+               hacemos para compartir la página web?
+
+
+
+
+
+
+               Github Pages
+
+
+
+
+
+               Falta el último paso: Github Pages
+
+
+               usaremos el servicio de github pages para publicar nuestro sitio de manera gratuita y poder
+               compartirlo con el mundo!]]></page><page Index="22"><![CDATA[ingresamos en settings o configuración
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               navegamos hasta el menú “pages”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Una vez dentro seleccionaremos la rama (branch) “main” que fue creada por Github
+               Desktop.]]></page><page Index="23"><![CDATA[y hacemos click en “save”. de esta forma github comenzará a construir la versión online de
+               nuestro sitio. nos brindará el hosting y una dirección de dominio predeterminada desde la
+               que vamos a poder entrar a la página desde cualquier lugar. Demora unos minutos así que
+               tengan paciencia.
+               Cuando el proceso termine verán una pantalla como esta:]]></page><page Index="24"><![CDATA[que les mostrará el enlace para acceder y compartir su página!
+
+               ¡Felicitaciones! ya están listos para publicar su sitio online! ¡Que sea el primero de muchos!
+
+
+
+
+
+
+
+
+
+               Practicá Git jugando:
+
+
+
+
+               https://learngitbranching.js.org/?locale=es_AR]]></page><page Index="25"><![CDATA[Desafío N° 9:
+
+
+               ¡Llegamos al desafío final del curso de Desarrollo web 1!
+
+
+               En este proyecto, pondrás en práctica los conocimientos adquiridos para construir la
+               estructura básica de un sitio ecommerce. El objetivo es aplicar las etiquetas de HTML y dar
+               estilo a la página utilizando CSS y Bootstrap..
+
+
+               Ejemplo:]]></page><page Index="26"><![CDATA[Código:
+
+
+               https://stackblitz.com/edit/web-platform-uegzb1?file=index.html]]></page><page Index="27"><![CDATA[Proyecto final:
+
+
+
+               Debes desarrollar en HTML y CSS la estructura visual de un sitio de E-commerce, utilizando
+               como base el siguiente wireframe:]]></page><page Index="28"><![CDATA[No es obligatorio que tenga este formato, Es sólamente una guía para la resolución de su
+               proyecto y las partes que debe contener.
+
+
+               Header: debe incluir barra de navegación con enlaces funcionales, logo y nombre de la
+               tienda.
+
+               Slider: debe incluir el componente carousel de bootstrap para poder mostrar 3 slides
+               distintas.
+
+
+               Sección de productos destacados y sección ofertas: Los elementos deben estar bien
+               posicionados y ordenados utilizando alguna de las herramientas vistas en el curso (flexbox,
+               grid, grillas de bootstrap). debe verse bien en todo tipo de pantalla. (responsive).
+
+               Footer: si tiene enlaces, deben ser funcionales, incluir iconografías.
+
+
+               A tener en cuenta:
+
+                   ●   Debe usar alguna tipografía desde Google Fonts.
+                   ●   Debe tener imágenes.
+                   ●   Debe ser responsive.
+                   ●   Debe estar disponible online
+
+
+
+               Instrucciones:
+
+
+               Estructura del Proyecto:
+                   ●   Crea una carpeta principal llamada "ecommerce-website".
+                   ●   Organiza tu proyecto con subcarpetas: por ejemplo: "css" para tus archivos de estilo,
+                       "img" para imágenes y "pages" para archivos HTML según las necesidades de tu
+                       proyecto.
+
+
+               HTML:
+                   ●   Utiliza HTML semántico para estructurar tu página. Asegúrate de incluir etiquetas
+                       como <header>, <nav>, <section>, y <footer>.
+                   ●   Utiliza CSS y Bootstrap para dar estilos a tu sitio web.
+                   ●   Crea una sección <main> que muestre varios productos en venta.
+                   ●   Para cada producto, incluye una imagen, nombre, descripción breve y precio.]]></page><page Index="29"><![CDATA[●   Agrega un Carousel de bootstrap para mostrar las ofertas o productos destacados.
+                   ●   Crea una barra de navegación con un logo o el nombre de tu tienda y al menos 3
+                       enlaces. (tip: puedes usar bootstrap para esto)
+
+
+               Pie de Página (Footer):
+
+                   ●   Diseña un pie de página que contenga información adicional sobre la tienda, como
+                       dirección y enlaces a políticas de privacidad.
+
+
+               Repositorio en GitHub:
+
+
+                   ●   Inicia un repositorio Git en la carpeta principal del proyecto.
+                   ●   Sube tus archivos a un repositorio en GitHub.
+                   ●   Despliegue en GitHub Pages:
+                   ●   Configura GitHub Pages para desplegar tu sitio web en vivo.
+                   ●   Proporciona el enlace de GitHub Pages en el repositorio.]]></page><page Index="30"><![CDATA[]]></page></pages></Search>

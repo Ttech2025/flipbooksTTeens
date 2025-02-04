@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="16"><page Index="1"><![CDATA[Diseño
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       UX / UI
+
+
+
+
+
+        Clase 10]]></page><page Index="2"><![CDATA[Clase N° 10
+
+
+
+
+
+               Temario:
+
+                   ●  Cómo recibir y manejar feedback.
+
+                   ●  Importancia de la iteración en el diseño.]]></page><page Index="3"><![CDATA[RECIBIR DAR Y MANEJAR FEEDBACK
+
+
+               El mundo del diseño y experiencias es completamente subjetivo, por eso
+               constantemente se busca y hace referencia al término feedback, pero ¿Qué es eso de
+               feedback?
+
+
+               ¿Qué es el Feedback?
+
+
+               Básicamente el feedback es la acción de dar y recibir una «opinión«. En entornos
+               empresariales y profesionales se ha adoptado este término inglés dado que expresa
+               mejor el concepto de recibir críticas y evaluaciones acerca de determinados trabajos,
+               por lo que se podría decir que su equivalente sería el término de retroalimentación.
+
+               Como profesionales constantemente estamos ofreciendo y recibiendo feedback acerca
+               de nuestro trabajo o el de otros compañeros, por lo que es sumamente importante tener
+               claro cómo recibir esas opiniones, pero es aún más importante aprender a dar un buen
+               feedback.
+
+
+               ¿Por qué es importante dar un buen feedback?
+
+               Dar feedback de manera recurrente es muy bueno, pero hay que tener en cuenta 4
+               puntos para que el feedback ofrecido sea de valor y no una simple opinión vacía, que
+               además pueda sentar mal a quien la recibe y no servirle.
+
+
+               4 Claves que debe tener el buen Feedback
+
+
+               Ayudar
+
+
+
+
+               El objetivo de ofrecer feedback a alguien siempre debe basarse en la ayuda y mejora de
+               un proceso determinado.]]></page><page Index="4"><![CDATA[Accionable
+
+
+
+               Este feedback debe ser ejecutable, o al menos intentar ofrecer alguna alternativa a la
+               situación actual.
+
+
+               Apreciar
+
+
+
+               Se debe agradecer siempre un feedback honesto, dado que si cumple los puntos
+               anteriores seguramente nos sea de utilidad tenerlo en cuenta, ya que es la visión de
+               otra persona fuera de nuestra cabeza.
+
+               Aceptar
+
+
+
+
+               Es sumamente importante aceptar todo el feedback que se nos quiera dar, siempre y
+               cuando se tengan buenas formas. Igual nos sorprenden con una visión completamente
+               diferente y que incluso nos parece mejor y más acertada.]]></page><page Index="5"><![CDATA[Recuerda, el feedback es sencillamente retroalimentación a modo de opinión acerca de
+               un determinado producto o situación, no hay que tomarse muy en serio las opiniones y
+               se ha de aprender a extraer la información que ayude a mejorar. De esa manera lo que
+               obtendremos será un Feedback muy bueno y que nos ayudará a progresar.
+
+
+
+
+               ¿Qué son las Micro Interacciones UX?
+
+
+
+
+
+               El diseño de microinteracciones es una aspecto esencial para crear una experiencia
+               de usuario memorable y satisfactoria.
+
+
+               Las micro-interacciones son detalles de diseño apreciables y no intrusivos en
+               respuesta a las interacciones que realiza un usuario con una interfaz.
+
+               Habitualmente como usuarios nos impactan positivamente con pequeñas interacciones
+               que ni siquiera identificamos. El ejemplo perfecto es la aparición de un corazón en la
+               foto de alguien al hacerle doble tap encima de algo que nos gusta, mostrando
+
+
+               “El diseño de un producto es tan bueno como su elemento más
+               pequeño”
+
+
+
+               Dan Saffer
+
+               Mientras las funciones y prestaciones en un producto pueden requerir la plena atención
+               del usuario, las microinteracciones son breves, sencillas y no requieren esfuerzo.
+
+
+
+               Utilidad de usar microinteracciones
+
+
+               Las principales funcionalidades para diseñar micro animaciones en las interacciones
+               de los usuarios con productos o servicios son:]]></page><page Index="6"><![CDATA[●  Ofrecer feedback al usuario acerca de la realización de una tarea.
+                   ●  Llamar la atención sobre el estado de algún elemento de una interfaz.
+                   ●  Prevenir errores.
+                   ●  Crear experiencias más llamativas.
+
+
+
+               Partes de las microinteracciones
+
+
+               Lo más habitual es encontrar estas microinteracciones en formato de animaciones que
+               se ejecutan como resultado de una acción por parte del usuario, las micro interacciones
+               se componen de las siguientes partes:
+
+
+               Disparadores (Triggers)
+
+
+               Un disparador es la acción que activa la micro interacción. Este puede ser activado
+               directamente por el usuario (como un botón CTA) o puede ocurrir por otras condiciones
+               independientes de la activación directa del usuario.
+
+
+               Reglas (Rules)
+
+
+               Las reglas son las que definen cuales serán los sucesos básicos para que se ejecute
+               la macro interacción. Estas reglas son las que definen lo que sucederá tras el
+               disparador.
+
+
+               Retroalimentación (Feedback)
+
+
+               La retroalimentación es la respuesta visual que se entrega al usuario al realizar una
+               acción. Por ejemplo el cambio de color a rojo de un texto erróneo.
+
+
+               Bucles y Modos (Loops & Modes)
+
+
+               Los bucles son modificaciones que suceden a raíz de una primera acción con
+               interacción. Un ejemplo es el cambio de texto del botón de “Comprar ahora” a “Comprar
+               otro” una vez ese producto ya ha sido seleccionado con anterioridad.]]></page><page Index="7"><![CDATA[Ejemplos de Micro-Interacciones
+
+
+               Podemos encontrar micro interacciones en situaciones como:
+
+
+                   ●  Rellenar un formulario
+                   ●  Botones
+                   ●  Alertas de error
+                   ●  Confirmaciones
+                   ●  Onboardings
+                   ●  Notificaciones
+                   ●  Carga de contenido]]></page><page Index="8"><![CDATA[¿Cuándo se crean las microinteracciones?
+
+
+               Las micro-interacciones son sutilezas que conforman el diseño del producto final. Se
+               empiezan a crear y desarrollar en la fase del desarrollo de interacción.
+
+
+               Dependiendo del tamaño del producto se pueden contemplar y realizar más o menos
+               micro-interacciones.
+
+               El diseñador UX/UI es el que debe detectar los pasos o situaciones donde pueda
+               aplicar una micro-interacción, con el objetivo de aportar valor a la experiencia del
+               usuario con la interfaz.]]></page><page Index="9"><![CDATA[Para comprobar la utilidad, estas micro-interacciones se testean en pruebas con
+               usuarios para analizar el funcionamiento y usabilidad. Tras varias iteraciones se
+               revisan y modifican en la siguientes fases de diseño hasta corregir por completo los
+               puntos débiles y mejorar la usabilidad en la que interviene esa interacción.
+
+
+
+               ¿Cuando tiene lugar las microinteracciones en una UI?
+
+
+
+               Las microinteracciones tienen lugar en momentos específicos dentro de la interacción
+               entre el usuario y la interfaz. Estas interacciones ocurren generalmente cuando el
+               usuario realiza una acción concreta, como hacer clic en un botón, deslizar una barra
+               de desplazamiento, pasar el cursor sobre un elemento interactivo, completar un campo
+               de entrada de texto, etc.
+
+
+               Las microinteracciones se activan en respuesta a estas acciones por parte del usuario y
+               proporcionan una retroalimentación visual inmediata para confirmar que la acción se ha
+               realizado correctamente.
+
+               Los momentos en los que puede incluirse microinteracciones son:
+
+
+                   ●  Retroalimentación de clic o toque: Respuesta visual inmediata al interactuar
+                       con botones o elementos táctiles, como cambios de color o animaciones de
+                       pulsación.
+                   ●  Validación de entrada: Retroalimentación visual para confirmar la validez o
+                       errores en campos de formulario, como animaciones de verificación o mensajes
+                       contextuales.
+                   ●  Respuesta al deslizamiento: Efectos visuales al deslizar elementos, como
+                       transiciones suaves o cambios de opacidad.
+                   ●  Indicaciones de carga o progreso: Animaciones que informan al usuario sobre
+                       el progreso o carga de contenido, como barras de carga o iconos de espera.
+                   ●  Animaciones de carga completada o acción finalizada: Microinteracciones
+                       que indican visualmente la finalización de una acción, como animaciones de
+                       confirmación o cambios en el estado de los elementos.]]></page><page Index="10"><![CDATA[Claves para crear buenas micro-interacciones
+
+
+               Las microinteracciones mal diseñadas pueden ofrecer al usuario una experiencia
+               completamente opuesta a lo deseado, para ellos es aconsejable que:
+
+
+                   ●  Las microinteracciones no sean largas.
+                   ●  Estén basadas en movimientos físicos.
+                   ●  Se sientan naturales.
+                   ●  No despisten o abrumen al usuario.
+                   ●  Nunca bloqueen el flujo o funcionamiento del producto.
+
+
+
+
+
+
+
+               ¿Cuándo se ha terminado un diseño?
+
+
+
+
+
+               En el mundo del diseño gráfico, diseño web o diseño de producto digital nos
+               encontramos con que las soluciones visuales que creamos tiende a ser siempre
+               mejorables y muy subjetivas. Es por ello que es muy fácil no terminar nunca un diseño
+               concreto.
+
+
+               En el mundo offline, podríamos decir que un diseño se había terminado cuando se
+               había impreso el material trabajado, pero en el mundo digital en el que vivimos hoy
+               ¿Cuándo se da por terminado un diseño digital?
+
+
+               Con la posibilidad de modificar el diseño tantas veces como se requiera, y con el coste
+               mental y temporal que conlleva, en el entorno profesional aparece una cuestión, ¿hasta
+               cuándo debo darle vueltas a un diseño?
+
+               Cuestiones para saber cuando terminar de diseñar
+
+               Para saber si el diseño estará finalizado debes plantearte 3 preguntas cuestiones clave:]]></page><page Index="11"><![CDATA[¿Aborda el objetivo definido?
+
+
+               Comprender el estado de un proyecto es complejo si no sabes que estás haciendo, ni
+               por qué lo estás haciendo.
+
+               Definir un brief debería ser siempre el primer paso antes de ponerse a diseñar. A través
+               de este brief de diseño deberíamos ser capaces de determinar un objetivo claro con el
+               cual ponernos a diseñar. Gracias a este podremos comprobar si el trabajo de diseño ha
+               sido efectivo.
+
+
+               ¿Cuál es la fecha límite?
+
+
+               Todos los proyectos de diseño deberían contar con una fecha límite, ya que si no hay
+               limitaciones cuesta poner foco y finalizar. Determinar una fecha de entrega crea una
+               meta a la que llegar con una solución de diseño final.
+
+               ¿Cumple con los requisitos mínimos?
+
+               Priorizar y definir las características mínimas de un producto o diseño es imprescindible
+               para no quedarse en un bucle infinito. Existen variedad de métodos de priorización (p.ej:
+               MoSCoW) mediante los cuales definir cuáles serán los requisitos mínimos necesarios
+               para completar el brief de diseño de manera exitosa.
+
+
+               ¿El diseño cumple con lo que debe? En este caso debemos dar por finalizado el diseño.
+
+
+               Una vez que un diseño está terminado, siempre puedes volver a el
+               para refinarlo, añadir funcionalidades o generar documentación
+
+               adicional.
+
+
+
+
+               Evaluaciones antes de abandonar un diseño
+
+               El tiempo es limitado, pero aún habiendo finalizado un sprint de diseño o habiendo
+               lanzado ya el producto final, hay varias cuestiones que deberías plantear cuando
+               finalices un diseño.]]></page><page Index="12"><![CDATA[¿He explorado más opciones?
+
+
+               A veces por prisa, otras veces por comodidad, no investigamos lo suficiente y
+               recurrimos a patrones de diseño y soluciones gráficas que son tendencia, creando y
+               diseñando soluciones genéricas que no abordan correctamente el problema u objetivo
+               planteado, o por lo menos no de la mejor forma posible.
+
+               ¿He pedido feedback?
+
+
+               Pedir comentarios y opiniones acerca del trabajo que se está realizando sirve para
+               comprender si el diseño se ve bien y está alineado a los objetivos que buscamos.
+
+
+               ¿Me he alejado más de una vez?
+
+
+               Apartarse del diseño, dejarlo reposar y volver a analizarlos es muy interesante, además
+               permite ser crítico con el trabajo desarrollado.
+
+               ¿Estoy haciendo un buen uso de mi tiempo?
+
+
+
+               Con fechas de entrega ajustadas, las soluciones no se pueden reposar lo suficiente y se
+               debe avanzar en el diseño con agilidad, pero cuando se dispone de más tiempo
+               disponible para un trabajo, la tendencia es adquirir un ritmo más pausado, haciendo que
+               se demore más la entrega de un diseño final.]]></page><page Index="13"><![CDATA[En resumen…
+
+
+               Da retroalimentación de manera frecuente
+
+               Es recomendable dar feedback constante y basado en hechos reales, en lugar de esperar
+               hasta que el proyecto esté avanzado. Esto ayuda a identificar y solucionar problemas de
+               manera más rápida y eficiente.
+
+               Nunca des feedback si estás enfadado
+
+
+               Evita dar feedback con una actitud negativa. Asegúrate de que la comunicación sea positiva
+               y basada en datos, para evitar que la reunión se convierta en un enfrentamiento emocional.
+
+
+               Sé específico
+
+               Usa palabras adjetivas para describir tus impresiones y evitar términos ambiguos que
+               pueden llevar a interpretaciones erróneas. Sé claro sobre tus preocupaciones y el público
+               objetivo.
+
+
+               Resalta lo positivo
+
+               Menciona lo que está bien hecho para asegurarte de que se mantenga en futuras versiones.
+               Esto aumenta la efectividad del feedback y evita confusiones.
+
+               No seas dramático
+
+
+               Mantén la calma y evita exageraciones al dar feedback.
+
+               Escucha lo que la otra persona tenga que decir
+
+               La empatía es clave para el feedback efectivo. Escucha atentamente las opiniones del otro
+               antes de decidir si seguir su consejo o no.
+
+
+               Así como existe la posibilidad de dar FEEDBACK, también tené en cuenta de cuando
+               recibas FEEDBACK.
+
+
+               tené en cuenta lo siguiente :
+
+               Estar abierto al feedback]]></page><page Index="14"><![CDATA[Mantén una actitud receptiva. Recuerda que el feedback es una oportunidad para mejorar,
+               no una crítica personal.
+
+               Escuchar activamente
+
+               Presta atención a lo que la otra persona está diciendo sin interrumpir. Asegúrate de
+               entender su punto de vista antes de responder.
+
+               Pedir aclaraciones
+
+                Si algo no está claro, no dudes en pedir más detalles o ejemplos. Esto ayuda a comprender
+               mejor el feedback y cómo aplicarlo.
+
+
+               No tomarlo personalmente
+
+                Separa el feedback sobre tu trabajo y tu autoestima personal. Considera el feedback como
+               una herramienta para el crecimiento profesional.
+
+               Agradecer el feedback
+
+
+               Muestra gratitud a la persona que te está proporcionando feedback, ya que su intención es
+               ayudarte a mejorar.
+
+
+               Evaluar y priorizar
+
+                No todo el feedback será útil o aplicable. Evalúa qué comentarios son más relevantes y
+               prioriza cuáles implementar primero.
+
+               Implementar cambios
+
+               Toma acciones concretas basadas en el feedback recibido. Esto demuestra que valoras la
+               opinión de los demás y estás comprometido con la mejora continua.
+
+
+               Solicitar feedback de seguimiento
+
+                Después de implementar cambios, pide más feedback para ver si las mejoras han sido
+               efectivas y si hay áreas adicionales para trabajar.]]></page><page Index="15"><![CDATA[Desafío N° 10:
+
+
+               Recolección de Feedback:
+
+                   ●  Asegúrate de haber recibido feedback detallado sobre tu prototipo. Este
+                       feedback puede provenir de pruebas de usuario, evaluaciones de compañeros o
+                       comentarios de instructores.
+                   ●  El feedback debe incluir observaciones sobre usabilidad, diseño visual,
+                       funcionalidad y cualquier otra área relevante.
+                   ●  Aplica las mejoras para lograr un Prototipo Excelente!]]></page><page Index="16"><![CDATA[]]></page></pages></Search>

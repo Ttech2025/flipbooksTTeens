@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="22"><page Index="1"><![CDATA[Videojuegos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         Clase 06]]></page><page Index="2"><![CDATA[Clase N° 6 | Conceptos básicos
+
+
+
+
+               Temario:
+
+
+
+                   ●  Interfaz de Usuario
+
+                   ●  Canvas y elementos UI
+                   ●  Cambios de escena]]></page><page Index="3"><![CDATA[¿Qué es una interfaz de usuario?
+
+
+
+
+               La interfaz de usuario (UI por sus siglas en inglés, "User Interface") es el espacio donde se
+               producen las interacciones entre nosotros y el juego. Su objetivo es permitir el
+               funcionamiento y control de las funciones del juego, además de posibilitar la extracción de
+
+               información acerca del estado y de variables que transcurren durante la experiencia lúdica.
+
+               Una interfaz puede adoptar diversas formas, como un menú, una barra de vida, un
+               inventario, un mapa, un diálogo escrito, entre otras. Existen infinitos tipos de interfaces, y
+               cada juego proporcionará distintas formas de comunicar lo que sucede. En algunos casos,
+
+               los juegos pueden incluso consistir principalmente en elementos de interfaz.
+
+               Es importante comprender que, en un videojuego, la UI es, en un 95% de los casos, una
+               capa de elementos que se superpone en la cámara. Es decir, son elementos 2D que siguen
+               la cámara y que no se encuentran dentro del mundo del juego; son no diegéticos.
+
+
+               Las UI diegéticas son menos comunes, y son interfaces que se encuentran dentro del
+               mundo donde se desarrolla el gameplay. Un ejemplo muy popular puede ser la interfaz del
+               Dead Space, donde la barra de vida del protagonista se encuentra incrustada dentro de la
+
+               lógica que nos propone el juego.]]></page><page Index="4"><![CDATA[Siguiendo el ejemplo de arriba, las UI no diegéticas son las más comunes y son las que
+               vamos a trabajar en esta clase. Lo importante de este tipo de UI es que están relacionadas
+
+               a la cámara, cuando trabajamos con la UI ponemos el modo 2D, para que todo sea más
+               cómodo. Vamos a trabajar en hacer un menú, lo cual será fácilmente trasladable a otro tipo
+
+               de interfaces para sus proyectos.
+               Para hacer esto vamos a hacer clic en “2D” en la ventana de escena (Scene).]]></page><page Index="5"><![CDATA[Creando el Canvas
+
+
+
+               El Canvas en Unity es un componente fundamental utilizado en el desarrollo de interfaces
+               de usuario, todo lo que hagamos que tenga que ver con UI, tiene que ir dentro de este
+
+               componente, va a ser nuestro lienzo.
+
+
+               El Canvas actúa como un contenedor que alberga diferentes elementos de la interfaz, como
+
+               botones, textos, imágenes y paneles, que son visibles en la pantalla del juego. Es esencial
+               para crear y controlar la presentación y la interacción de los elementos de la interfaz dentro
+               del mundo del juego.
+
+
+
+               Lo que tenemos que hacer para crearlo, es dar click derecho sobre el Hierarchy y buscar el
+
+               apartado de UI:]]></page><page Index="6"><![CDATA[Automáticamente se nos generará una pantalla en 2D a la cual podremos agregarle varios
+               gameobject como ser, Textos, botones, Toggle, entre otros.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Cuando creamos un Canvas por primera vez, también se genera un objeto llamado
+
+               EventSystem, que hace que los elementos de la interfaz sean interactuables, cumple]]></page><page Index="7"><![CDATA[funciones más avanzadas también, pero por ahora solo lo vamos a arrastrar dentro de
+               nuestro Canvas por una cuestión de orden, y vamos a renombrar al Canvas como “UI” por la
+               misma razón.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Antes de continuar, tenemos que cambiar una variable del Canvas. Vamos a seleccionarlo, y
+
+               vamos a cambiar la variable de UI Scale Mode en el componente Canvas Scaler. Vamos a
+               pasar de Constant Pixel Size a Scale With Screen Size. Con esto vamos a lograr que la
+
+               interfaz se adapte al tamaño de la pantalla.]]></page><page Index="8"><![CDATA[El fondo
+               Lo primero que vamos a hacer es crear un fondo para nuestro menú. Para esto, y todo lo
+
+               que sigue, vamos a estar usando elementos que están dentro de la pestaña de UI, como
+               cuando hicimos el Canvas. Vamos a crear un nuevo objeto dentro del Canvas de tipo Image,
+
+               una vez creado vamos a llamarlo “Fondo”:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Necesitamos que esta imagen ocupe todo el espacio del Canvas para que cumpla su
+
+               función de fondo. Vamos a seleccionar el fondo, y vamos a notar que el transform es distinto
+               a otros objetos. La lógica de posicionamiento de los objetos UI es distinta a la convencional:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Podemos cambiar el ancho, el alto y la posición relativa al objeto padre (en este caso el
+
+               Canvas. Para acelerar el proceso, vamos a aprender cómo rellenar un objeto de forma]]></page><page Index="9"><![CDATA[rápida: Vamos a hacer clic sobre el cuadro de posiciones (marcado con un círculo en la
+               imagen de arriba), manteniendo la tecla Alt , vamos a seleccionar el botón que está en la
+               esquina inferior derecha.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Ahora vamos a ver que tenemos todo el Canvas cubierto. Vamos a cambiar el color del
+               fondo desde el componente Image.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Lo ideal sería ya arrancar a crear los textos. Para hacerlo es bastante sencillo, muy parecido
+
+               a como hicimos con el Canvas.
+
+
+               El Texto
+
+               Para escribir texto, vamos a utilizar TextMeshPro, un componente de texto muy flexible, que
+               nos permite realizar un montón de cosas que tenga que ver con el con texto, obvio.]]></page><page Index="10"><![CDATA[Haciendo clic derecho sobre el Canvas, vamos a ir UI -> TextMeshPro.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  Cuando seleccionemos esta opción. Nos va a aparecer un cartel que nos va a
+               preguntar si queremos exportar el TextMeshPro.
+
+
+                 Al objeto creado le vamos a renombrar como “Titulo”.
+               Así debería quedarnos hasta ahora:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               En el componente de TextMeshPro de nuestro nuevo objeto, vamos a cambiar el
+               alineamiento para que quede prolijo. Y luego vamos a cambiar la posición en el eje Y de
+
+               forma positiva para que quede más arriba el texto.]]></page><page Index="11"><![CDATA[Alineamiento
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Además vamos a ver un campo de texto donde podemos escribir lo que va a desplegar el
+
+               texto. Por Default siempre dice “New Text”. Vamos a escribir el nombre de nuestro juego (o
+               lo que queramos).]]></page><page Index="12"><![CDATA[También podemos cambiar el tamaño de las letras con Font Size y el color de las letras con
+               Vertex Color:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               El boton
+
+               Ahora vamos a crear un botón que nos va a servir para cambiar de escena. Vamos a hacer
+               clic derecho sobre el Canvas -> UI -> Button - TextMeshPro:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Al objeto creado lo vamos a llamar “Boton_jugar” y vamos a notar que este objeto ya trae un
+               texto como hijo. Podemos acceder al “Text (TMP)” para cambiarle el texto al botón, como
+
+               hicimos con el título; podemos escribirle algo que indique que ese botón sirve para iniciar el
+               juego.]]></page><page Index="13"><![CDATA[Así quedó nuestro menú:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Ahora vamos a escribir un poco de código para que podamos cambiar de escena cuando
+
+               apretamos nuestro botón.
+
+
+
+                  DATAZO: Podés explorar en la documentación de Unity sobre accesibilidad en C#:]]></page><page Index="14"><![CDATA[Implementación de Scripts
+
+
+               Primero vamos a crear un objeto que va a controlar el cambio de escenas. Este va a ser un
+
+               objeto invisible dentro de nuestro juego, que va a administrar el código necesario para que
+               podamos pasar de una escena a la otra. Estos objetos se conocen como Managers, son
+               muy importantes, ya que se encargan de manejar distintos aspectos de nuestro juego. Cabe
+
+               aclarar que un manager no es obligatorio, es solo un nombre que se usa por convención,
+               pero puede llamarse de otra forma.
+               Creamos un nuevo objeto vacío, y le ponemos “ManagerEscenas”:]]></page><page Index="15"><![CDATA[Ahora vamos a crear un nuevo C# script y lo vamos a llamar de la misma manera
+
+               “ManagerEscenas”.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Dentro del script vamos a escribir el siguiente código:
+               public class ManagerEscenas : MonoBehaviour{
+                  public void CambiarEscenas (string nombre_de_escena){
+                    SceneManager.LoadScene(nombre_de_escena);
+                  }
+               }
+
+
+
+               Cosas a notar en este script: En la línea 2 vamos a ver que agregamos una biblioteca
+               extra. Sin esta línea no vamos a poder acceder a SceneManager en la línea 8. Usamos un
+
+               parámetro llamado “nombre_de_escena” que vamos a utilizar para saber a qué escena
+               vamos a cambiar, ya que en general, tenemos más de dos escenas en un proyecto.
+
+
+
+               Con este script vamos a estar bien, pero nos queda una serie de pasos para que este botón
+               funcione:]]></page><page Index="16"><![CDATA[Vamos a agregar este nuevo script a el objeto “ManagerEscenas”:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Vamos a seleccionar nuestro botón en la Hierarchy y vamos a buscar el componente de
+               Button:]]></page><page Index="17"><![CDATA[En Unity, cuando apretamos un botón, este llama un evento que hace que suceda algo.
+               Estos eventos aparecen en la lista de abajo donde dice “On Click ()”.
+
+               Como el botón es nuevo y no le asignamos ningún evento, está vacío. Nuestro objetivo es
+               hacer que cuando lo apretemos, se reproduzca el código que escribimos anteriormente.
+               Vamos a hacer clic sobre el símbolo del “+” y nos va a aparecer un campo vacío donde
+
+               vamos a agregar el objeto que aloja el código.
+
+
+
+
+
+
+
+
+
+
+
+
+               Vamos a agarrar el objeto (no el script) de “ManagerEscenas” y lo vamos a arrastrar hasta
+               donde dice “None”, tiene que quedar así:
+
+
+
+
+
+
+
+
+
+
+
+
+               Una vez hecho esto, vamos a abrir el dropdown que dice “No Function” ->
+               MangerEscenas -> CambiarEscena(string)]]></page><page Index="18"><![CDATA[Acá lo que estamos haciendo es seleccionar la función que creamos anteriormente, y el
+               espacio para escribir (un string) es el parámetro “nombre_de_escena” que mencionamos
+               antes. En este campo vamos a escribir el nombre de la escena que vamos a conectar con el
+
+               botón: “Clase_6_juego”.
+
+
+               Ya casi estamos, falta un paso más para que nuestro botón funcione.
+
+
+
+               Build Settings
+
+
+
+               Para que las escenas estén conectadas, tenemos que agregarlas a la build del proyecto, en
+               próximas clases vamos a detallar lo que es una build, por ahora vamos a ir a File -> Build
+
+               Settings para que nos aparezca la siguiente ventana.]]></page><page Index="19"><![CDATA[En la lista de arriba vamos a agregar las escenas que queremos conectar, en este caso son
+               las escenas que están en la carpeta de la clase 6. Vamos a agarrar las escenas y las vamos
+               a arrastrar hasta la lista.]]></page><page Index="20"><![CDATA[Con todo esto hecho, tendríamos que tener un menú principal funcional, con botones que
+               nos permitan movernos por otras secciones y que puede pasar a otra escena gracias al
+               SceneManager.]]></page><page Index="21"><![CDATA[Desafío N° 6:
+
+
+
+
+                   ●  Seguí los pasos de la clase y hacé un menú principal.
+                   ●  Personalizá el menú como vos quieras, dale un toque personal, descargando
+                      imágenes de internet y explorando las posibilidades de interfaz vistas en clase.
+
+                   ●  No te olvides de guardar todos los cambios.
+                   ●  Tomá una captura de pantalla del menú.
+
+                   ●  Subilas al espacio correspondiente del Desafío 6.]]></page><page Index="22"><![CDATA[]]></page></pages></Search>

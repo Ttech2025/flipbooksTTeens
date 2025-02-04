@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="17"><page Index="1"><![CDATA[Inteligencia
+
+
+
+
+
+
+
+
+
+        Artiﬁcial
+
+
+
+
+
+
+
+
+
+
+
+
+
+         Clase 01]]></page><page Index="2"><![CDATA[Clase N° 1 | Conceptos básicos
+
+
+
+
+
+                        Temario:
+
+
+                           ●   ¿Qué es la Inteligencia Artificial?
+                           ●   Aplicaciones de IA en la vida cotidiana.
+                           ●   ¿Qué es Python? ¿Para qué sirve? ¿usos?
+                           ●   ¿Qué vas a aprender? ¿Qué voy hacer? ¿Cuál es el proyecto final?
+                           ●   ¿Qué es Visual Studio Code?
+                           ●   Instalación y configuración de Python y Visual Studio Code.
+                           ●   ¿Por qué vamos a construir un ChatBot?]]></page><page Index="3"><![CDATA[¿Qué es Inteligencia Artiﬁcial(IA)?
+
+
+                        La inteligencia artificial es un campo de la ciencia relacionado con la creación de
+                        computadoras y máquinas que pueden razonar, aprender y actuar de una manera
+                        que normalmente requeriría inteligencia humana o que involucra datos cuya escala
+                        excede lo que los humanos pueden analizar.
+                        La IA es un campo amplio que incluye muchas disciplinas, como la informática, el
+                        análisis y la estadística de datos, la ingeniería de hardware y software, la
+                        lingüística, la neurociencia y hasta la filosofía y la psicología.
+                        A nivel operativo para el uso empresarial, la IA es un conjunto de tecnologías que
+                        se basan principalmente en el aprendizaje automático y el aprendizaje profundo,
+                        que se usan para el análisis de datos, la generación de predicciones y previsiones,
+                        la categorización de objetos, el procesamiento de lenguaje natural, las
+                        recomendaciones, la recuperación inteligente de datos y mucho más.]]></page><page Index="4"><![CDATA[El universo de la IA.
+
+
+                        A través de esta imagen conoceremos el imponente universo de la IA y como es su
+                        conformación.]]></page><page Index="5"><![CDATA[En este curso trabajaremos en la Inteligencia Artificial Generativa, el cual
+                        desarrollaremos en este curso: Large Language Model(LLM) o gran modelo de
+                        lenguaje, el cual conoceremos más a profundidad en las próximas clases.
+
+
+
+
+                        Aplicaciones de IA en la vida cotidiana.
+
+
+                           ●   Asistentes virtuales: Siri, Google Assistant o Alexa. Estos asistentes utilizan
+                               procesamiento del lenguaje natural e IA para responder preguntas, realizar
+                               tareas simples y controlar dispositivos inteligentes en el hogar.
+                           ●   Sistemas de recomendación: Presentes en plataformas como Netflix, Spotify
+                               o Amazon. Estos sistemas utilizan IA para analizar tus preferencias y
+                               comportamiento,    ofreciéndote   recomendaciones     personalizadas    de
+                               contenido o productos.
+                           ●   Navegación y mapas: Aplicaciones como Google Maps o Waze utilizan IA
+                               para optimizar rutas, predecir el tráfico y ofrecer estimaciones de tiempo de
+                               llegada más precisas.
+                           ●   Filtros de spam y seguridad del correo electrónico: Los servicios de correo
+                               electrónico emplean IA para detectar y filtrar correos no deseados o
+                               potencialmente peligrosos.
+                           ●   Reconocimiento facial y de imágenes: Presente en las cámaras de los
+                               smartphones para mejorar las fotos, en sistemas de seguridad, y en
+                               aplicaciones de redes sociales para etiquetar automáticamente a personas
+                               en las fotos.
+
+
+
+
+                        ¿Qué es Python?]]></page><page Index="6"><![CDATA[Python es un lenguaje de programación de alto nivel en donde uno de sus
+                        objetivos es la legibilidad del código.
+
+
+                        Los lenguajes de alto nivel son aquellos que intentan utilizar el lenguaje natural (el
+                        lenguaje que utilizamos día a día los humanos para hablar y escribir) para realizar
+                        programas, y que necesitan como soporte un programa que los traduzca al
+                        lenguaje máquina.
+
+
+                        Es altamente demandado por las empresas y startups, siendo los desarrolladores
+                        que programan con Python los que acceden a trabajos mejor remunerados y sobre
+                        variedad de temas.
+
+                        Algunas ventajas de comenzar tu carrera en tecnología de la mano de Python:
+
+                        Es uno de los lenguajes de programación más demandados por las empresas del
+                        ecosistema tech para este año y con mucha proyección.
+
+
+
+                        Ámbitos de aplicación de Python
+
+
+                        Python es uno de los lenguajes de programación más versátiles que existen, puede
+                        ser usado en muchos campos diferentes. Es decir, permite programar videojuegos,
+                        aplicaciones móviles, criptomonedas, entre otras cosas.
+
+
+
+
+
+
+
+
+
+
+
+
+                        Tecnología clave para la Ciencia de Datos, Machine Learning y Big Data.
+
+
+                        Python es el lenguaje del futuro para las empresas y startups que se están
+                        construyendo.
+                        Además de los usos asociados al mundo Data, Python también aplica al Desarrollo
+                        Web y es utilizado para desarrollar plataformas y aplicaciones como lo son Netflix o
+                        Instagram.]]></page><page Index="7"><![CDATA[Es fácil de aprender y si comprendes Python, podrás entender más fácilmente otros
+                        lenguajes de programación por lo que es ideal para dar tus primeros pasos aunque
+                        nunca hayas visto nada de código.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        En este curso, usaremos Python en el ámbito de aplicación de Machine Learning /
+                        Inteligencia Artificial.
+
+
+                        ¿Cómo instalar Python?
+
+
+                        Vídeo]]></page><page Index="8"><![CDATA[Visual Studio Code
+
+
+
+
+                        Instalando nuestro IDE: Visual Studio Code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        Un entorno de desarrollo integrado (IDE) es una aplicación de software que ayuda
+                        a los programadores a desarrollar código de software de manera eficiente. En
+                        nuestro curso vamos a utilizar Visual Studio Code.
+
+
+                        Estos IDE aumentan la productividad de los desarrolladores, ya que nos permite
+                        combinar diferentes capacidades como editar, crear, probar y empaquetar software
+                        en una aplicación fácil de usar. Así como los escritores utilizan editores de texto y
+                        los contables, hojas de cálculo, los desarrolladores de software utilizan IDE para
+                        facilitar su trabajo.
+
+
+                        Si bien existen muchos editores que podés usar para trabajar con Python en una
+                        PC o notebook, desde aquí, te recomendamos el editor Visual Studio Code, que es
+                        muy simple, liviano, fácil de entender y permite el intérprete de diferentes lenguajes.
+                        Además, también está en español. Obviamente, si tenés otro que te guste, ¡podés
+                        usarlo!]]></page><page Index="9"><![CDATA[Guía paso a paso
+
+
+
+                        La página oficial de Visual Studio Code (https://code.visualstudio.com/) Desde la
+                        página principal se puede descargar la última versión o acceder a la página de
+                        descargas (mediante el cuadro verde más pequeño situado arriba a la derecha):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                  Hacé doble clic sobre el
+                                                                                  instalador de Visual
+                                                                                  Studio Code para
+                                                                                  poner en marcha el
+                                                                                  asistente de instalación.
+                                                                                  Recordá que tenés que
+                                                                                  aceptar la licencia para
+
+                                                                                  continuar.  ]]></page><page Index="10"><![CDATA[La segunda pantalla permite
+                                                                            elegir el directorio de
+                                                                            instalación (por tratarse de la
+                                                                            versión User installer, el
+                                                                            directorio de instalación está
+                                                                            en la carpeta de usuario, no
+                                                                            en Archivos de programa):
+
+
+
+
+
+                                                                                  La tercera pantalla
+                                                                                  permite elegir el
+                                                                                  nombre de la carpeta
+                                                                                  del menú de inicio:]]></page><page Index="11"><![CDATA[La cuarta pantalla
+                                                                                  permite elegir algunas
+                                                                                  tareas adicionales tras
+                                                                                  la instalación. Les
+                                                                                  recomendamos marcar
+                                                                                  las casillas "Agregar la
+                                                                                  acción ...":
+
+
+
+
+
+
+
+                                                                                  Finalmente se
+                                                                                  muestran las opciones
+                                                                                  elegidas en las
+                                                                                  pantallas anteriores.
+                                                                                  Para iniciar la
+                                                                                  instalación, hacé clic en
+                                                                                  Instalar.]]></page><page Index="12"><![CDATA[Una vez completada la
+                                                                              instalación, se muestra la
+                                                                              pantalla final. Hacé clic en
+                                                                              Finalizar:
+
+                                                                              ¡Felicitaciones! Acabás de
+                                                                              instalar Visual Studio Code
+                                                                              en tu computadora. Lo
+                                                                              usaremos cada clase para
+                                                                              programar en Python.
+                        También te servirá para programar muchos otros lenguajes.
+
+
+                        Video de instalación]]></page><page Index="13"><![CDATA[Hoja de Ruta de Aprendizaje.
+
+
+
+
+                                                           En esta simple imagen, te daremos un
+                                                           recorrido para que puedas obtener respuestas
+                                                           a las siguientes preguntas:
+                                                               ●  ¿Qué voy a aprender?
+                                                               ●  ¿Qué voy a hacer?
+                                                               ●  ¿Cuál es el proyecto final que me llevo?
+
+
+
+
+                                                           Te dejamos un ejemplo de cómo será el
+                                                           chatbot que te vas a llevar al finalizar el curso.
+                                                           Haz click encima de la imagen y podrás
+                                                           visualizar cómo quedará tu proyecto final.]]></page><page Index="14"><![CDATA[¿Por qué vamos a construir un ChatBot?
+
+
+                               En este curso de Inteligencia Artificial con Python, construir un chatbot como
+                        proyecto final nos ofrece una oportunidad única para aplicar lo que vamos a
+                        aprender de una manera práctica y divertida.
+                               Te dejamos varias razones por lo cual es interesante construir uno:
+
+
+                           1. Cada vez más empresas utilizan chatbot para mejorar la productividad de
+                               sus empleados.
+                           2. Es fácil y sencillo la creación de un ChatBot.
+                           3. Las empresas hoy día, están liberando los modelos de lenguaje y gracias a
+                               ellos, nos permite construir un ChatBot de manera local.
+                           4. Al construir un ChatBot, nos permitirá desarrollar nuestras habilidades de
+                               programación, en este curso aprenderemos Python y por ende mientras
+                               avancemos pondremos en práctica lo que vamos aprendiendo clase a clase.
+                           5. Los chatbots son comunes en muchas aplicaciones y sitios web hoy en día,
+                               por lo que aprender a construir uno es muy relevante para el mundo real.]]></page><page Index="15"><![CDATA[6. Construir un chatbot nos permite integrar conocimientos de Inteligencia
+                               Artificial, programación y diseño de interfaces de usuario en un solo
+                               proyecto.
+                           7. La Inteligencia Artificial y la automatización son habilidades fundamentales
+                               para el futuro, y este proyecto nos ayuda a prepararnos para ello.]]></page><page Index="16"><![CDATA[Desafío N° 1:
+
+
+
+
+                           1. Entrega una captura de pantalla mediante el campus virtual que tienes
+                               instalado Visual Studio Code en tu equipo.]]></page><page Index="17"><![CDATA[]]></page></pages></Search>

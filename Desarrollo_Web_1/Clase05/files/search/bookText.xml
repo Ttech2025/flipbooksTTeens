@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="17"><page Index="1"><![CDATA[Desarrollo
+
+
+
+
+
+
+
+
+
+        Web 1
+
+
+
+
+
+
+
+
+
+
+
+
+         Clase 05]]></page><page Index="2"><![CDATA[Clase N° 5 | Conceptos básicos
+
+
+
+
+
+               Temario:
+
+
+
+                   ●   Repaso general de los temas vistos hasta las clase Nº4
+                   ●   Elementos HTML y estructura básica
+                   ●   HTML semántico y Creación de enlaces
+                   ●   Implementación de CSS, “Margin”,“padding” “box sizing” y tipografías e iconos
+                   ●   Posicionamiento de elementos utilizando “position”, Z-index]]></page><page Index="3"><![CDATA[Elementos HTML y estructura básica :
+
+
+
+               HTML, que significa Lenguaje de Marcado de Hipertexto (por sus siglas en inglés,
+               Hypertext Markup Language), es el estándar utilizado para crear y diseñar páginas web.
+               Los elementos HTML son los componentes básicos que conforman una página web. Cada
+               elemento HTML se representa mediante una etiqueta, y estas etiquetas se utilizan para
+               estructurar el contenido de la página.
+               Aquí hay algunos elementos HTML básicos:
+
+
+                       Etiqueta <html>:
+                          ●   Define el comienzo y el final del documento HTML.
+
+                       Etiqueta <head>:
+                          ●   Contiene información sobre el documento, como el título, metadatos, enlaces
+                              a hojas de estilo, entre otros.
+                       Etiqueta <title>:
+                          ●   Define el título de la página, que se muestra en la barra de título del
+                              navegador.
+                       Etiqueta <body>:
+                          ●   Contiene el contenido principal de la página, como texto, imágenes, enlaces,
+                              formularios, etc.
+                       Etiqueta <h1> a <h6>:
+                          ●   Define encabezados de diferentes niveles, donde <h1> es el encabezado
+                              más importante y <h6> el menos importante.
+                       Etiqueta <p>:
+                          ●   Define un párrafo de texto.
+                       Etiqueta <a>:
+                          ●   Define un enlace (hipervínculo) a otra página web o recurso.
+                       Etiqueta <img>:
+                          ●   Inserta una imagen en la página.
+                       Etiqueta <ul> y <ol>:
+                          ●   <ul> crea una lista no ordenada, y <ol> crea una lista ordenada.
+                       Etiqueta <li>:
+                          ●   Define un elemento de lista dentro de <ul> o <ol>.]]></page><page Index="4"><![CDATA[Etiqueta <div>:
+                          ●   Se utiliza para agrupar y estructurar otros elementos, permitiendo aplicar
+                              estilos o manipularlos de manera conjunta.
+                       Etiqueta <span>:
+                          ●   Similar a <div>, pero se utiliza para aplicar estilos en línea
+
+
+                ¿Que es la estructura básica HTML?:
+
+               La estructura básica de un documento HTML consta de varios elementos esenciales que
+               proporcionan la base para cualquier página web
+               <!DOCTYPE html>
+               <html lang="en">
+               <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width,
+               initial-scale=1.0">
+                    <title>Document</title>
+               </head>
+               <body>
+
+
+               </body>
+               </html>
+
+
+                       <!DOCTYPE html>:
+                          ●   Declaración del tipo de documento. Esta línea define la versión de HTML que
+                              se está utilizando, en este caso, HTML5.
+                       <html>:
+                          ●   El elemento raíz que engloba todo el contenido HTML de la página.
+                       lang="es":
+                          ●   Atributo que especifica el idioma de la página. En este caso, "es" indica
+                              español. Puedes ajustar esto según el idioma de tu elección.
+                       <head>:]]></page><page Index="5"><![CDATA[●   Contiene metadatos y enlaces a recursos externos como hojas de estilo
+                              (CSS), scripts, y otros elementos que no son parte directa del contenido
+                              visible en la página.
+                       <meta charset="UTF-8">:
+                          ●   Especifica el conjunto de caracteres utilizado. UTF-8 es comúnmente usado
+                              y soporta una amplia variedad de caracteres.
+                       <meta name="viewport" content="width=device-width, initial-scale=1.0">:
+                          ●   Configura la visualización en dispositivos móviles, asegurando que el ancho
+                              de la página se ajuste al ancho del dispositivo y la escala inicial sea 1.0.
+                       <title>:
+                          ●   Define el título de la página que se muestra en la barra de título del
+                              navegador.
+                       <body>:
+                          ●   Contiene todo el contenido visible de la página, como texto, imágenes,
+                              enlaces, formularios, etc.
+
+
+
+               Práctica de repaso Clase 1
+
+               Armado del proyecto en visual studio code:
+
+
+                   ●   Armamos la carpeta que va a contener el proyecto y la abrimos en el visual studio
+                       code
+                   ●   Creamos el archivo index .html y creamos las sub-carpetas que vas a
+                       contener(imágenes , audios , videos hojas de estilos y scripts js )
+                   ●   Creamos la estructura básica html]]></page><page Index="6"><![CDATA[●   Agregamos elementos html :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               link al código    ]]></page><page Index="7"><![CDATA[¿Qué es y para qué se utiliza el html
+
+
+               semántico?
+
+
+
+
+               HTML semántico se refiere a la práctica de escribir código HTML de manera que el código
+               refleje el significado y la estructura del contenido. Busca proporcionar un significado claro y
+               estructurado al contenido, facilitando tanto a los desarrolladores como al navegador
+               entender la información en un nivel más profundo.
+
+
+                       <header>:
+                          ●   Es la parte superior o encabezado de una página . Contiene elementos como
+                              títulos, logotipos, nav, etc.
+                       <nav>:
+                          ●   Representa la sección de navegación de la página. Generalmente, contiene
+                              enlaces o menús de navegación.
+                       <main>:
+                          ●   Define el contenido principal de la página. Debería contener el contenido
+                              relevante y único para cada página, excluyendo encabezados, pies de página
+                              y barras laterales.
+                       <article>:
+                          ●   Se utiliza para definir contenido independiente y autónomo que podría existir
+                              y ser reutilizado por separado, como un artículo de noticias, un comentario.
+                       <section>:
+                          ●   Define una sección genérica de contenido. Puede contener otros elementos
+                              semánticos y se utiliza para organizar el contenido de manera más
+                              específica.
+                       <aside>:
+                          ●   Representa contenido relacionado pero no esencial para la comprensión
+                              principal del documento. Puede contener barras laterales, publicidad, enlaces
+                              relacionados, etc.
+                       <footer>:]]></page><page Index="8"><![CDATA[●   Define el pie de página de una página. Contiene información como derechos
+                              de autor, enlaces de contacto y redes sociales.
+
+
+
+               ¿Qué son los enlaces y para que se utilizan en HTML?
+
+
+
+               Los enlaces, también conocidos como hipervínculos, son elementos fundamentales en
+               HTML que permiten conectar diferentes páginas web y recursos en la Web. Los enlaces se
+               crean mediante la etiqueta <a> (de "anchor" o "ancla").
+
+
+               Sintaxis básica:
+
+
+               <a href="URL_del_destino">Texto o contenido del enlace</a>
+
+
+               Practica de Repaso Clase 2:
+
+
+
+               Armado del proyecto en visual studio code    :
+                   ●   Agregamos contenedores semánticos para estructurar nuestro código(header,
+                       main,section,footer
+               <body> <!-- Aca van todos los elementos de nuestra web -->
+                    <header>
+                         <nav> <!-- Menu de navegación -->
+
+
+                         </nav>
+                    </header>
+                    <main>
+                         <section>
+                               <!-- seccion 1      -->
+                         </section>
+                         <section>
+                               <!-- seccion 2 -->
+                         </section>
+                    </main>]]></page><page Index="9"><![CDATA[<footer>
+                         <!-- Aca va el pie de pagina          -->
+                    </footer>
+               </body>
+
+
+                   ●   Agregamos elementos html a los contenedores semánticos , creamos dos páginas
+                       más(productos, nosotros) y armamos el menú de navegación conectando todas las
+                       páginas de nuestro sitio web
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Link al código    
+
+
+               CSS y Box Model
+               ¿Qué es CSS?
+
+
+
+               CSS (Hojas de Estilo en Cascada) se encarga de dar estilo y presentación visual a la
+               estructura definida en HTML. Permite controlar colores, fuentes, márgenes y otros aspectos
+               visuales.]]></page><page Index="10"><![CDATA[¿Qué es Box Model? (margin, padding, border)
+
+
+
+               El modelo de caja (Box Model) es un concepto fundamental en CSS que describe cómo se
+               representa visualmente cada elemento en una página web. Cada elemento HTML es
+               considerado como una caja rectangular, y el modelo de caja especifica cómo se calculan y
+               aplican el ancho, el alto, los márgenes, los bordes y el relleno de esa caja.
+                       Padding:
+                          ●   Es el espacio entre el contenido y el borde. Controla el espacio interior de la
+                              caja.
+                       Border:
+                          ●   Es la línea que rodea el relleno. Es opcional, y su apariencia se define
+                              mediante propiedades
+                       Margen (Margin):
+                          ●   Es el espacio exterior al borde. Controla el espacio entre la caja actual y
+                              otras cajas circundantes.
+
+
+
+               Practica de Repaso Clase 3:
+
+               Armado del proyecto en visual studio code    :
+                   ●   Creamos la hoja de estilo en la carpeta css y la vinculamos con nuestro
+                       archivos.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   ●   Creada la hoja de estilos pasamos a hacer el “reset de body” para que nuestra
+                       página tenga el mismo performance dependiendo del navegador que usemos]]></page><page Index="11"><![CDATA[/* Reseteamos el body */
+               *{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+               }
+
+
+               3-implementando las propiedades de margin-padding-border pasamos a modelar los
+               elementos html por ejemplo creando cards . Luego aplicamos propiedades de texto, color,
+               color de fondo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               link al código    ]]></page><page Index="12"><![CDATA[Definición Iconos y Tipografías
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Icono:
+
+
+               En el contexto de una página web, un "icono" generalmente se refiere a un pequeño gráfico
+               visual utilizado para representar de manera concisa una idea, función o acción.
+
+
+                Boxicon    ]]></page><page Index="13"><![CDATA[Tipografía :
+
+
+
+               La tipografía en el contexto de diseño y desarrollo web se refiere a la elección y
+               presentación de fuentes de texto en una página
+
+
+               Google Fonts    
+
+
+
+
+               Contenedores límites:
+
+
+
+               Los "contenedores límites" son elementos que se utilizan para crear un contexto visual o
+               estructural que afecta al diseño y posicionamiento de otros elementos dentro de ellos.]]></page><page Index="14"><![CDATA[Estos contenedores son útiles para controlar el flujo del diseño y establecer límites o
+               restricciones en el diseño de la página web.
+
+
+
+               Propiedad position:
+
+
+
+               La propiedad position en CSS se utiliza para especificar el método de posicionamiento de
+               un elemento en relación con su contenedor o el cuerpo del documento
+
+
+               Relative:
+                   ●   El elemento se posiciona de forma relativa con respecto a su posición normal en el
+                       flujo del documento. Puedes desplazar usando las propiedades top, right, bottom y
+                       left.
+               Absolute:
+                   ●   El elemento se posiciona de forma absoluta con respecto a su primer ancestro
+                       posicionado o al cuerpo del documento si no tiene un ancestro posicionado.
+               Fixed:
+                   ●   El elemento se posiciona de forma fija con respecto a la ventana del navegador.
+                       Permanecerá en la misma posición incluso cuando la página se desplace.
+
+
+
+               Practica de Repaso Clase 4:
+               Armado del proyecto en Visual studio code:
+
+
+
+                   ●   Incluimos los links para vincular nuestro proyecto con la pagina de iconos box icon y
+                       las tipografías de google fonts]]></page><page Index="15"><![CDATA[●   Creamos contendores límites para centrar las secciones de la página y por medio de
+                       las propiedades de position vamos a modelar la distribución del menú de navegación
+                       y por por medio de position fixed vamos a lograr que en header nos siga al hacer
+                       scroll en la página
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               Link al código    ]]></page><page Index="16"><![CDATA[Desafío N° 5:
+
+
+                                                  ¡No hay desafío!    
+
+
+                  Aprovecha la clase de repaso para ponerte al día y realizar los desafíos pendientes    ]]></page><page Index="17"><![CDATA[]]></page></pages></Search>
